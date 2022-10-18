@@ -1,0 +1,90 @@
+.wrapMenuDown {
+  width: 1200px;
+  height: 52px;
+  background: #FFFFFF;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+.wrapMenuDown .dropDown {
+  position: absolute;
+  background: #FFFFFF;
+  top: 100%;
+  left: 0;
+  width: 352px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+}
+.wrapMenuDown .active, .wrapMenuDown .dropDown:hover {
+  position: absolute;
+  background: #FFFFFF;
+  top: 100%;
+  left: 0;
+  width: 352px;
+  z-index: 2;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+}
+.wrapMenuDown .realit {
+  position: relative;
+}
+.wrapMenuDown .dropDownLink {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #212121;
+  opacity: 0.5;
+  border-bottom: 1px solid #212121;
+}
+.wrapMenuDown .menuBtn {
+  cursor: pointer;
+  background: #FFFFFF;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #212121;
+  position: relative;
+}
+.wrapMenuDown .menuBtn::after {
+  content: "";
+  position: absolute;
+  right: -14px;
+  top: 5px;
+  background: url("../../img/Vector1.svg") no-repeat;
+  width: 10px;
+  height: 5px;
+}
+.wrapMenuDown ul li a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.wrapMenuDown .map {
+  display: flex;
+  margin-left: auto;
+}
+.wrapMenuDown .map li {
+  margin-right: 40px;
+}/*# sourceMappingURL=MenuDown.module.css.map */

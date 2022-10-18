@@ -1,0 +1,71 @@
+.cartWrap1 .f {
+  background: red;
+  width: 360px;
+  height: 487px;
+  background: url("../../img/photoCart1.png") no-repeat;
+}
+.cartWrap1 .f .wrapContent {
+  padding: 42px 32px 0px 42px;
+}
+.cartWrap1 .f .wrapContent .title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 28px;
+}
+.cartWrap1 .f .wrapContent .seo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cartWrap1 .f .wrapContent .hr {
+  background: #FFFFFF;
+  opacity: 0.2;
+}
+.cartWrap1 .f .wrapContent .content {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+.cartWrap1 .f .wrapContent .sale {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+.cartWrap1 .f .wrapContent .btnCart {
+  padding: 16px 32px;
+  width: 296px;
+  height: 52px;
+  left: 32px;
+  top: 395px;
+  border: 1px solid #FF5900;
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FF5900;
+  background: linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 86.98%), url(../../img/photo.png);
+}/*# sourceMappingURL=Cart.module.css.map */
