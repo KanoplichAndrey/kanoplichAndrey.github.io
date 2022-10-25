@@ -1,6 +1,6 @@
-import {
-    menu
-  } from '../base/Base';
+import { menu } from '../base/Base';
+   
+ 
 
   export const getHeaderMenu = () => {
     return menu;

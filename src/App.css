@@ -18,5 +18,9 @@ button {
 }
 
 .App {
-  width: 1600px;
+  width: 160rem;
+}
+
+html {
+  font-size: 10px;
 }/*# sourceMappingURL=App.css.map */

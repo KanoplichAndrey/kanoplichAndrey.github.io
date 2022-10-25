@@ -1,10 +1,10 @@
 .wrapMenuUp {
-  width: 1200px;
-  height: 52px;
+  width: 120rem;
+  height: 5.2rem;
   background: #FFFFFF;
   display: grid;
   grid-template-columns: 16% 39.5% 22.5% 22%;
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -12,7 +12,7 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 140%;
   color: #212121;
   opacity: 0.7;
@@ -26,25 +26,25 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1.6rem;
+  line-height: 2rem;
   color: #212121;
   opacity: 0.7;
 }
 .wrapMenuUp .true {
-  width: 222px;
-  height: 52px;
-  border-radius: 100px;
+  width: 22.2rem;
+  height: 5.2rem;
+  border-radius: 10rem;
   display: flex;
   justify-content: center;
   background: #FFFFFF;
   cursor: pointer;
 }
 .wrapMenuUp .btnUp {
-  width: 222px;
-  height: 52px;
-  border: 1px solid #FF5900;
-  border-radius: 100px;
+  width: 22.2rem;
+  height: 5.2rem;
+  border: 0.1rem solid #FF5900;
+  border-radius: 10rem;
   display: flex;
   justify-content: flex-end;
   background: #FFFFFF;
@@ -53,20 +53,20 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 16px 28px;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  padding: 1.6rem 2.8rem;
   position: relative;
   text-align: center;
 }
 .wrapMenuUp .btnUp:before {
   content: "";
   position: absolute;
-  right: 173px;
-  top: 15px;
+  right: 17.3rem;
+  top: 1.5rem;
   background: url("../../img/VectorPhone.svg") no-repeat;
-  width: 20px;
-  height: 20px;
+  width: 2rem;
+  height: 2rem;
 }
 .wrapMenuUp .btnUp:hover {
   color: #FFFFFF;

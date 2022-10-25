@@ -1,0 +1,78 @@
+.ctaWrap {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.0259732) 0%,
+            rgba(0, 0, 0, 0.25) 51.83%, rgba(0, 0, 0, 0.025) 100%), url('../../img/photo1.png') no-repeat center center;
+    backdrop-filter: blur(0.1rem);
+    width: 160rem;
+    height: 50.1rem;
+
+    .wrapContent {
+        width: 120rem;
+        height: 7.5rem;
+        margin: 0 auto;
+
+        .content {
+            text-align: center;
+            display: grid;
+            justify-items: center;
+            padding: 12rem 0rem 12rem 0rem;
+            grid-row-end: 100px;
+            grid-template-rows: 7.6rem 10.1rem 10.5rem;
+            align-items: center;
+
+
+            .contentTitle {
+                h1 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 6.8rem;
+                    line-height: 110%;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+
+            }
+
+            .contentText {
+                width: 698px;
+                height: 44px;
+
+                h3 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 140%;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+
+
+            .btn {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1.8rem;
+                line-height: 2.2rem;
+                color: #FFFFFF;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 2rem 4rem;
+                width: 45.4rem;
+                height: 6.2rem;
+                background: #FF5900;
+                backdrop-filter: blur(0.25rem);
+                border-radius: 10rem;
+                border: none;
+
+                &:hover {
+                    background: #CA4600;
+                    backdrop-filter: blur(025rem)
+                }
+            }
+        }
+    }
+
+}

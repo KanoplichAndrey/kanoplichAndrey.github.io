@@ -1,0 +1,22 @@
+.wrapComand{
+    width: 120rem;
+    margin: 0 auto;
+    padding-bottom: 12rem;
+    h2{
+        width: 30.4rem;
+        height: 4.6rem;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.8rem;
+        line-height: 120%;
+        color: #212121;
+    }
+    .Card{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 6rem;
+        flex-wrap: wrap;
+        
+    }
+}

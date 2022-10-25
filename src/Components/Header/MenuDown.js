@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import s from'./MenuDown.module.css';
-import search from '../../img/search.svg';
+import { ReactComponent as Search} from '../../img/search.svg';
 import { useEffect, useState } from 'react';
 import { getHeaderMenu } from './Servis/Servis';
 
@@ -58,7 +58,7 @@ const  MenuDown = () => {
 						</ul> 
 
 						<Link to="logo" className={s.logo}>
-						<img title="my-img" src={search} alt="my-img" />
+						<Search className={s.search} title="my-img"  />
 				 </Link>
 			 </div>
 	 

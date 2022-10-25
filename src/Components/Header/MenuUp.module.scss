@@ -1,20 +1,18 @@
 .wrapMenuUp{
-	width: 1200px;
-	height: 52px;
+	width: 120rem;
+	height: 5.2rem;
 	background: #FFFFFF;
 	display: grid;
     grid-template-columns: 16% 39.5% 22.5% 22%;
-	margin-bottom: 25px;
+	margin-bottom: 2.5rem;
     margin-left: auto;
     margin-right: auto;
-	// display: flex;
-	// align-items: center;
-	// justify-content: space-between;
+
 ul:nth-child(2) li{
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 1.4rem;
 	line-height: 140%;
 	color: #212121;
 	opacity: 0.7;
@@ -28,51 +26,27 @@ ul:nth-child(3) li a{
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 1.6rem;
+	line-height: 2rem;
 	color: #212121;
 	opacity: 0.7;
 }
 
-.false {
-	// width: 222px;
-	// height: 52px;
-	// border: 1px solid #FF5900;
-	// border-radius: 100px;
-	// display: flex;
-	// justify-content: center;
-	// background: #FF5900;
-	// cursor: pointer;
-}
-// .true:hover {
-// 	width: 222px;
-// 	height: 52px;
-// 	border: 1px solid #FF5900;
-// 	border-radius: 100px;
-// 	display: flex;
-// 	justify-content: center;
-// 	background: #FF5900;
-// 	cursor: pointer;
-// }
 
- 
-// }
 .true {
-	width: 222px;
-	height: 52px;
-	// border: 1px solid #FFFFFF;
-	border-radius: 100px;
+	width: 22.2rem;
+	height: 5.2rem;
+	border-radius: 10rem;
 	display: flex;
 	justify-content: center;
 	background: #FFFFFF;
-	// border: 1px solid #FF5900;
 	cursor: pointer;
 }
 .btnUp{
-	width: 222px;
-	height: 52px;
-	border: 1px solid #FF5900;
-	border-radius: 100px;
+	width: 22.2rem;
+	height: 5.2rem;
+	border: 0.1rem solid #FF5900;
+	border-radius: 10rem;
 	display: flex;
     justify-content: flex-end;
 	background: #FFFFFF;
@@ -81,20 +55,20 @@ ul:nth-child(3) li a{
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
-	line-height: 20px;
-	padding: 16px 28px;
+	font-size: 1.6rem;
+	line-height: 2rem;
+	padding: 1.6rem 2.8rem;
 	position: relative;
 
 text-align: center;
 }.btnUp:before{
 		content: '';
 				position: absolute;
-				right: 173px;
-				top: 15px;
+				right: 17.3rem;
+				top: 1.5rem;
 				background: url('../../img/VectorPhone.svg')  no-repeat;
-				width: 20px;
-				height: 20px;	
+				width: 2rem;
+				height: 2rem;	
 	}
 .btnUp:hover{
 	color: #FFFFFF;
@@ -106,36 +80,4 @@ text-align: center;
 	
 }
 
-
-
-// .btnUpActive{
-// 	width: 222px;
-// 	height: 52px;
-// 	border-radius: 100px;
-// 	display: flex;
-// 	justify-content: center;
-// 	background: #FF5900;
-// 	cursor: pointer;
-// 	color: #FFFFFF;
-// 	border: none;
-// 	// background: #FF5900;
-// 	position: relative;
-// 	font-family: 'Montserrat';
-// 	font-style: normal;
-// 	font-weight: 500;
-// 	font-size: 16px;
-// 	line-height: 20px;
-// 	padding: 16px 28px;
-	
-// }
-
-// .btnUpActive::before{
-// 	content: '';
-// 			position: absolute;
-// 			right: -14px;
-// 			top: 5px;
-// 			background: url('../../img/VectorPhone2.svg')  no-repeat;
-// 			width: 20px;
-// 			height: 20px;
-// }
 }

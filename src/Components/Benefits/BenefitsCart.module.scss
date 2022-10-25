@@ -1,0 +1,79 @@
+.cartWrap {
+    width: 36rem;
+    height: 16rem;
+
+
+
+    .cartWrapLight {
+
+        display: grid;
+        justify-items: center;
+        grid-row-gap: 1.7rem;
+
+        .im1 {
+            background: url('../../img/icon1.svg') no-repeat;
+            width: 7rem;
+            height: 7rem;
+            margin-top: 0.8rem;
+        }
+
+        .im2 {
+            background: url('../../img/icon2.svg') no-repeat;
+            width: 7rem;
+            height: 7rem;
+            margin-top: 0.8rem;
+        }
+
+        .im3 {
+            background: url('../../img/icon3.svg') no-repeat;
+            width: 7rem;
+            height: 7rem;
+            margin-top: 0.8rem;
+        }
+
+        .im4 {
+            background: url('../../img/icon4.svg') no-repeat;
+            width: 7rem;
+            height: 7rem;
+            margin-top: 0.8rem;
+        }
+
+        .im5 {
+            background: url('../../img/icon5.svg') no-repeat;
+            width: 7rem;
+            height: 7rem;
+            margin-top: 0.8rem;
+        }
+
+        .im6 {
+            background: url('../../img/icon6.svg') no-repeat;
+            width: 7rem;
+            height: 7rem;
+            margin-top: 0.8rem;
+        }
+
+        .cartContent {
+
+            p {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1.6rem;
+                line-height: 140%;
+                text-align: center;
+                color: #333333;
+            }
+        }
+
+
+    }
+
+
+}
+
+.cartWrap:hover {
+    border: solid 0.1rem #72717188;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}

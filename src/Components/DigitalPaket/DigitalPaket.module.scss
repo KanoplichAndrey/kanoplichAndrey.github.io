@@ -1,25 +1,36 @@
-.digitalWrap{
-    width: 1200px;
-    height: 487px;
-    // background: red;
+.digitalWrap {
+    width: 120rem;
     margin: 0 auto;
-    padding-top: 120px;
-}
+    padding-top: 12rem;
 
-.classWrapCart{
-    display: flex;
-    justify-content: space-between;
+    .title {
 
-    
-}
-h2{
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 38px;
-        line-height: 120%;
-        color: #FF5900;
-        span{
-           color:#212121; 
+
+        h2 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 3.8rem;
+            line-height: 120%;
+            color: #FF5900;
+
+            span {
+                color: #212121;
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 3.8rem;
+                line-height: 120%;
+            }
+
         }
+
     }
+
+    .classWrapCart {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+}

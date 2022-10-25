@@ -1,20 +1,19 @@
 .wrapMenuDown{
-    width: 1200px;
-    height: 52px;
+    width: 120rem;
+    height: 5.2rem;
     background: #FFFFFF;
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-top: 25px;
+    padding-top: 2.5rem;
     .dropDown{
         position: absolute;
         background: #FFFFFF;
         top: 100%;
         left: 0;
-        width: 352px;
-        // height: 100%;
+        width: 35.2rem;
         opacity:0;
         visibility:hidden;
         transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
@@ -25,7 +24,7 @@
         background: #FFFFFF;
         top: 100%;
         left: 0;
-        width: 352px;
+        width: 35.2rem;
         z-index: 2;;
         opacity: 1;
         visibility: visible;
@@ -40,17 +39,17 @@
         .dropDownLink{
             display: block;
             width: 100%;
-            padding: 5px 10px;
+            padding: 0.5rem 1rem;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 500;
-            font-size: 14px;
+            font-size: 1.4rem;
             line-height: 120%;
             letter-spacing: 0.01em;
             text-transform: uppercase;
             color: #212121;
             opacity: 0.5;
-            border-bottom: 1px solid #212121;;
+            border-bottom: 0.1rem solid #212121;;
         }
    .menuBtn {
         cursor: pointer;
@@ -59,7 +58,7 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 1.4rem;
         line-height: 120%;
         letter-spacing: 0.01em;
         text-transform: uppercase;
@@ -70,11 +69,11 @@
         .menuBtn::after {
             content: '';
             position: absolute;
-            right: -14px;
-            top: 5px;
+            right: -1.4rem;
+            top: 0.5rem;
             background: url('../../img/Vector1.svg')  no-repeat;
-            width: 10px;
-            height: 5px;
+            width: 1rem;
+            height: 0.5rem;
             
             }
                 ul li{
@@ -83,7 +82,7 @@
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 14px;
+                font-size: 1.4rem;
                 line-height: 120%;
                 letter-spacing: 0.01em;
                 text-transform: uppercase;
@@ -95,10 +94,13 @@
         display: flex;
         margin-left: auto;
        & li{
-            margin-right: 40px;
+            margin-right: 4rem;
 
         }
     }
-
+    .search:hover{
+       fill: opacity 3;
+       
+    }
 }
 
