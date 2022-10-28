@@ -1,0 +1,84 @@
+
+.WrapOurClients{
+    width: 120rem;
+    margin: 0 auto;
+
+    .title{
+        h2{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 120%;
+            color: #212121;
+
+        }
+    }
+
+    .wrapImages{
+        // display: flex;
+        // justify-content: space-between;
+        // flex-wrap: wrap;
+        // align-items: baseline;
+        display:grid;
+        grid-template-columns: repeat(auto-fit, 278px);
+        justify-items: center;
+        justify-content: space-between;
+        padding-top: 6rem;
+
+        // .divWrap{
+            // width: 278px;
+            // height: 68px;
+            // background: red ;
+        // }
+
+        .divWrap:nth-child(1){
+            padding-top: 0.8rem;
+            }
+        // .divWrap:nth-child(2){
+
+        // }
+        // div:nth-child(3){
+        //     width: 278px;
+        //     height: 68px;
+        // }
+        // div:nth-child(4){
+        //     width: 278px;
+        //     height: 68px;
+        // }
+        // div:nth-child(5){
+        //     width: 278px;
+        //     height: 68px;
+        // }
+        // div:nth-child(6){
+        //     width: 278px;
+        //     height: 68px;
+        // }
+        // div:nth-child(7){
+        //     width: 278px;
+        //     height: 68px;
+        // }
+        // div:nth-child(8){
+        //     width: 278px;
+        //     height: 68px;
+        // }
+    }
+
+    .wrapImages1{
+
+        display:grid;
+        grid-template-columns: repeat(auto-fit, 278px);
+        justify-items: center;
+        justify-content: space-between;
+        padding-top: 38px;
+        padding-bottom: 120px;
+
+        .divWrap1:nth-child(1){
+        padding-top: 0.9rem;
+        }
+        .divWrap1:nth-child(3){
+           margin-top: -11px;
+        }
+       
+    }
+}

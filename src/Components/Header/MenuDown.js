@@ -58,7 +58,7 @@ const  MenuDown = () => {
 						</ul> 
 
 						<Link to="logo" className={s.logo}>
-						<Search className={s.search} title="my-img"  />
+						<Search className={s.search}   />
 				 </Link>
 			 </div>
 	 

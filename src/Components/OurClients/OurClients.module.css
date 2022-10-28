@@ -1,0 +1,36 @@
+.WrapOurClients {
+  width: 120rem;
+  margin: 0 auto;
+}
+.WrapOurClients .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: #212121;
+}
+.WrapOurClients .wrapImages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 278px);
+  justify-items: center;
+  justify-content: space-between;
+  padding-top: 6rem;
+}
+.WrapOurClients .wrapImages .divWrap:nth-child(1) {
+  padding-top: 0.8rem;
+}
+.WrapOurClients .wrapImages1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 278px);
+  justify-items: center;
+  justify-content: space-between;
+  padding-top: 38px;
+  padding-bottom: 120px;
+}
+.WrapOurClients .wrapImages1 .divWrap1:nth-child(1) {
+  padding-top: 0.9rem;
+}
+.WrapOurClients .wrapImages1 .divWrap1:nth-child(3) {
+  margin-top: -11px;
+}/*# sourceMappingURL=OurClients.module.css.map */

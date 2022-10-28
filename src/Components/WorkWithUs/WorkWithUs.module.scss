@@ -1,0 +1,133 @@
+.wrapOurResult{
+  width: 1200px;
+  // height: 384px;
+  margin: 0 auto;
+  .h1{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    color: #212121;
+    padding-bottom: 60px;
+  }
+  .p{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 140%;
+      color: #212121;
+      padding-bottom: 40px;
+  }
+
+  .tab {
+      overflow: hidden;
+      background: #F4F4F4;
+      width: 1200px;
+    }
+
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 16px 35px;
+      transition: 0.3s;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 140%;
+      text-align: center;
+      color: #212121;
+      width: 240px;
+      height: 90px;
+      border-right: 1px solid #33333333;
+      border-left:1px solid #33333333;;
+
+    }
+
+    .tablinks{
+      background: #333333;
+      // background: rgb(128, 5, 5);
+      border-right: 1px solid rgba(51, 51, 51, 0.2);
+
+    }
+    
+    .tab button:hover {
+      background: #FF5900;
+      border-right: 1px solid rgba(51, 51, 51, 0.2);
+      color: #FFFFFF;
+    }
+    
+    
+     button .active {
+      background: #FF5900;
+      border-right: 1px solid rgba(51, 51, 51, 0.2);
+      color: #FFFFFF;  
+
+    }
+    .active{
+      // background: #6e0606;
+      border: none;
+      color: #FFFFFF;
+    }
+
+    .tablinks.active {
+      background: #FF5900;
+      border-right: 1px solid rgba(51, 51, 51, 0.2);
+      border: none;
+      color: #FFFFFF;
+    }
+    
+    
+    .tabcontent {
+     
+    }
+      li:nth-child(2):before,
+      li:nth-child(3):before,
+      li:nth-child(4):before,
+      li:nth-child(5):before,
+      li:nth-child(6):before,
+      li:nth-child(7):before{
+         content: "";
+         display: inline-block;
+         height: 0.2rem;
+         width: 0.2rem;
+         vertical-align: middle;
+         border-radius: 50%;
+         background-color: #000;
+         margin-right: 0.9rem;
+         margin-left: 0.9rem;
+
+      }
+    .tabcontent{
+      display: none;
+      /* padding: 40px 275px 50px 275px; */
+      display: flex;
+      background: #FFFFFF;
+      border: 1px solid rgba(51, 51, 51, 0.2);
+      height: 100%;
+      justify-content: space-between;
+         ul{
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 140%;
+          color: #212121;
+          padding:40px 186px 60px 40px;
+      
+          }
+          .img {
+            padding:22px 70px 0px 0px;
+           img{
+            width: 267px;
+            height: 258px;
+           } 
+          }
+      }      
+}
