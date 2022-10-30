@@ -23,4 +23,62 @@ button {
 
 html {
   font-size: 10px;
+}
+
+.mySlider .slick-slider.slick-initialized {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: static;
+}
+
+.mySlider .slick-list {
+  height: 420px;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.mySlider .slick-track {
+  height: 420px;
+  margin: 0 30px;
+}
+
+.mySlider .slick-prev {
+  position: absolute;
+  z-index: 300;
+  top: 315px;
+  left: -86px;
+  background: url("img/Arrow_nexttive.svg") no-repeat center center/100%;
+  opacity: 0.5;
+}
+.mySlider .slick-prev:hover {
+  background: url("img/Arrow_nexttive.svg") no-repeat center center/100%;
+  opacity: 1;
+}
+.mySlider .slick-prev:focus {
+  background: url("img/Arrow_nexttive.svg") no-repeat center center/100%;
+  opacity: 1;
+}
+
+.mySlider .slick-next {
+  position: absolute;
+  z-index: 300;
+  left: 1230px;
+  top: 315px;
+  background: url("img/Arrow_aector.svg") no-repeat center center/100%;
+  opacity: 0.5;
+}
+.mySlider .slick-next:hover {
+  opacity: 1;
+  background: url("img/Arrow_BackAtive.svg") no-repeat center center/100%;
+}
+.mySlider .slick-next:active {
+  background: url("img/Arrow_BackAtive.svg") no-repeat center center/100%;
+  opacity: 1;
+}
+
+.mySlider .slick-prev:before, .mySlider .slick-next:before {
+  content: "";
+  font-family: "";
+  font-size: 0px;
 }/*# sourceMappingURL=App.css.map */

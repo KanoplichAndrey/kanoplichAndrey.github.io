@@ -13,24 +13,27 @@ import OurCompany from './Components/OurCompany/OurCompany';
 import OurComand from './Components/OurComand/OurComand';
 import OurResult from './Components/OurResult/OurResult';
 import OurClients from './Components/OurClients/OurClients';
-
+import Reviews from './Components/Slider/Reviews';
 import WorkWithUs from './Components/WorkWithUs/WorkWithUs';
+
+
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <Headerr />
-		<Cover  />
-		<DigitalPaket />
-		<Benefits   />
-		<BestSolutions />
-		<CaruselCard />
-		<CTA />
-		<OurCompany />
-		<OurComand />
+        <Cover  />
+        <DigitalPaket />
+        <Benefits   />
+        <BestSolutions />
+        <CaruselCard />
+        <CTA />
+        <OurCompany />
+        <OurComand />
         <OurResult />
         <OurClients />
+        <Reviews />
 		<WorkWithUs />
       </div>
     </BrowserRouter>

@@ -1,4 +1,6 @@
-import { React, useEffect, useState } from "react";
+import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 import Cart from "./Cart";
 import s from "./DigitalPaket.module.css";
 import { getCartBase1 } from "../../Servis/Servis";

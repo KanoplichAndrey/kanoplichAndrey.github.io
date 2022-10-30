@@ -1,4 +1,4 @@
-import { React } from "react";
+import  React  from "react";
 import s from "./Benefits.module.css";
 import Cart from "../Benefits/BenefitsCart";
 import {benefitsCart} from '../../Base/Base';

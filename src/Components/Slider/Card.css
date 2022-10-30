@@ -1,0 +1,11 @@
+.cart {
+  width: 360px;
+  height: 420px;
+  border: 2px solid #D2D2D2;
+  border-radius: 15px;
+  margin: 0, 30px;
+  background: #F4F4F4;
+}
+.cart:hover {
+  border: 2px solid #FF5900;
+}/*# sourceMappingURL=Card.css.map */

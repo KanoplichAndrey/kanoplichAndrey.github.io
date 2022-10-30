@@ -1,6 +1,7 @@
 .WrapOurClients {
   width: 120rem;
   margin: 0 auto;
+  padding-top: 12rem;
 }
 .WrapOurClients .title h2 {
   font-family: "Montserrat";

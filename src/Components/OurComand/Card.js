@@ -3,7 +3,7 @@ import s from './Card.module.css';
 
 
 const Card = ({cls, name, jobTitle }) => {
-  return (<>
+  return ( <>
   <div className={s.cartWrap}>
     <div className={s.hj}>
     <div className={ `${s.p} ${s[cls]}`}>
