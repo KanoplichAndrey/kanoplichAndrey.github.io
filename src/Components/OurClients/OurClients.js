@@ -9,10 +9,10 @@ import Image6 from '../../img/image6.svg';
 import Image7 from '../../img/image7.svg';
 import Image8 from '../../img/image8.svg';
 
-const icons = [Image1, Image2, Image3, Image4 ];
-const icons1 = [Image5, Image6, Image7, Image8]; 
+const icons = [Image1, Image2, Image3, Image4];
+const icons1 = [Image5, Image6, Image7, Image8];
 
-const OurClients = () => {
+const OurClients = ({ ourClients }) => {
   return (
     <div className={s.WrapOurClients}>
       <div className={s.title}>

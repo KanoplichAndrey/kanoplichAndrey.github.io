@@ -60,7 +60,7 @@
   font-weight: 700;
   font-size: 1.8rem;
   line-height: 2.52rem;
-  color: #FF5900;
+  color: #ff5900;
 }
 .wrapCart .Info .warapslepris .salePrise p {
   font-family: "Montserrat";
@@ -101,7 +101,7 @@
   font-weight: 600;
   font-size: 1.4rem;
   line-height: 120%;
-  color: #FF5900;
+  color: #ff5900;
 }
 .wrapCart .more span span {
   padding-left: 0.8rem;
@@ -189,7 +189,7 @@
 }
 .li1 .warapslepris {
   width: 22.9rem;
-  padding-top: 9px;
+  padding-top: 0.9rem;
 }
 .li1 .more {
   padding-top: 0.2rem;

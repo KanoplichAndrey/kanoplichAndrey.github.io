@@ -1,0 +1,36 @@
+.wrapForm {
+  background: url(../../img/footerImg.png) no-repeat center center;
+  width: 160rem;
+  height: 78.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapForm .formContent {
+  width: 90.8rem;
+  height: 54.9rem;
+}
+.wrapForm .formContent .title {
+  margin-bottom: 3.8rem;
+}
+.wrapForm .formContent .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 5.4rem;
+  padding-bottom: 4rem;
+}
+.wrapForm .formContent .title p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.04px;
+}/*# sourceMappingURL=FormBlock.module.css.map */

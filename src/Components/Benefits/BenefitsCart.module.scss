@@ -64,16 +64,14 @@
                 color: #333333;
             }
         }
-
-
     }
-
-
 }
 
 .cartWrap:hover {
-    border: solid 0.1rem #72717188;
+    border: 1px solid orangered;
     cursor: pointer;
-    transition-duration: 1s;
-    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;  
+    box-shadow: 0 0 10px orangered; /* Параметры тени */
+    padding: 10px;     
 }

@@ -3,7 +3,6 @@ import s from'./BestSolutions.module.css';
 import { BestSolutionsCart } from '../../Base/Base';
 import Cart2BestSolutions from './Cart2BestSolutions';
 
-
 const  BestSolutions = () => {
   
   return (

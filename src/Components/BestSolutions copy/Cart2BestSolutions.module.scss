@@ -1,455 +1,344 @@
 .wrapCart {
-    width: 36rem;
-    height: 50.2rem;
+  width: 36rem;
+  height: 50.2rem;
+  display: grid;
+  justify-items: center;
+  border: 1px solid rgb(51 51 51 / 30%);
+
+  .title {
+    padding-top: 1rem;
+    width: 28.5rem;
+
+    h2 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.8rem;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      color: #212121;
+    }
+  }
+
+  .content {
+    width: 32.2rem;
+
+    p {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.4rem;
+      line-height: 140%;
+      text-align: center;
+      color: #212121;
+      opacity: 0.5;
+    }
+  }
+
+  .line {
+    border-top: 1px solid #333333;
+    opacity: 0.2;
+    width: 31.2rem;
+  }
+
+  .Info {
+    width: 31.2rem;
     display: grid;
-    justify-items: center;
+    grid-template-rows: 3.6rem 6em;
+    grid-template-columns: 3.85rem 26.4rem;
+    grid-column-gap: 1.2rem;
+    align-items: center;
 
-    border: 1px solid rgb(51 51 51 / 30%);
+    .prise {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.4rem;
+      line-height: 140%;
+      color: #212121;
 
-    .title {
-        padding-top: 1rem;
-        width: 28.5rem;
-
-        h2 {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 1.8rem;
-            line-height: 140%;
-            text-align: center;
-            letter-spacing: 0.01em;
-            text-transform: uppercase;
-            color: #212121;
-        }
+      span {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 2.52rem;
+        color: #ff5900;
+      }
     }
 
-    .content {
-        width: 32.2rem;
-
+    .warapslepris {
+      .salePrise {
         p {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 1.4rem;
-            line-height: 140%;
-            text-align: center;
-            color: #212121;
-            opacity: 0.5;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1.8rem;
+          line-height: 120%;
+          text-decoration-line: line-through;
+          color: #212121;
+          opacity: 0.5;
         }
-    }
+      }
 
-    .line {
-        border-top: 1px solid #333333;
-        opacity: 0.2;
-        width: 31.2rem
-    }
-
-    .Info {
-        width: 31.2rem;
-        display: grid;
-        grid-template-rows: 3.6rem 6em;
-        grid-template-columns: 3.85rem 26.4rem;
-        grid-column-gap: 1.2rem;
-        align-items: center;
-
-        .prise {
-
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 1.4rem;
-            line-height: 140%;
-            color: #212121;
-
-
-
-            span {
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 1.8rem;
-                line-height: 2.52rem;
-                color: #FF5900;
-            }
+      .sale {
+        p {
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1.4rem;
+          line-height: 140%;
+          color: #212121;
         }
-
-        .warapslepris {
-
-            .salePrise {
-
-                p {
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 1.8rem;
-                    line-height: 120%;
-                    text-decoration-line: line-through;
-                    color: #212121;
-                    opacity: 0.5;
-                }
-            }
-
-            .sale {
-                p {
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 1.4rem;
-                    line-height: 140%;
-                    color: #212121;
-
-                }
-
-                span {
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 1.4rem;
-                    line-height: 1.96rem;
-                    color: #212121;
-                }
-
-            }
-        }
-
-    }
-
-    .more {
-        position: relative;
-        display: flex;
-        justify-content: flex-end;
-        width: 31.2rem;
 
         span {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 1.4rem;
-            line-height: 120%;
-            color: #FF5900;
-
-            span {
-                padding-left: 0.8rem;
-            }
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1.4rem;
+          line-height: 1.96rem;
+          color: #212121;
         }
+      }
     }
+  }
 
+  .more {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 31.2rem;
+
+    span {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.4rem;
+      line-height: 120%;
+      color: #ff5900;
+
+      span {
+        padding-left: 0.8rem;
+      }
+    }
+  }
 }
 
 .img1 {
-    background: url('../../img/pho1.svg') no-repeat;
-    width: 36rem;
-    height: 11.7rem;
-
+  background: url('../../img/pho1.svg') no-repeat;
+  width: 36rem;
+  height: 11.7rem;
 }
 
 .img2 {
-    background: url('../../img/pho2.svg') no-repeat;
-    width: 36rem;
-    height: 11.7rem;
+  background: url('../../img/pho2.svg') no-repeat;
+  width: 36rem;
+  height: 11.7rem;
 }
 
 .img3 {
-    background: url('../../img/pho3.svg') no-repeat;
-    width: 36rem;
-    height: 11.7rem;
-    margin-top: -0.1rem;
+  background: url('../../img/pho3.svg') no-repeat;
+  width: 36rem;
+  height: 11.7rem;
+  margin-top: -0.1rem;
 }
 
 .img4 {
-    background: url('../../img/pho4.svg') no-repeat;
-    width: 36rem;
-    height: 11.7rem;
+  background: url('../../img/pho4.svg') no-repeat;
+  width: 36rem;
+  height: 11.7rem;
 }
 
 .img5 {
-    background: url('../../img/pho5.svg') no-repeat;
-    width: 36rem;
-    height: 11.7rem;
+  background: url('../../img/pho5.svg') no-repeat;
+  width: 36rem;
+  height: 11.7rem;
 }
 
 .img6 {
-    background: url('../../img/pho6.svg') no-repeat;
-    width: 36rem;
-    height: 11.7rem;
+  background: url('../../img/pho6.svg') no-repeat;
+  width: 36rem;
+  height: 11.7rem;
 }
 
 .i1 {
-    background: url('../../img/framesale.svg') no-repeat;
-    width: 3.815rem;
-    height: 4.12rem;
-
+  background: url('../../img/framesale.svg') no-repeat;
+  width: 3.815rem;
+  height: 4.12rem;
 }
 
 .i2 {
-    background: url('../../img/framepresent.svg') no-repeat;
-    width: 3.815rem;
-    height: 4.12rem;
-
-
+  background: url('../../img/framepresent.svg') no-repeat;
+  width: 3.815rem;
+  height: 4.12rem;
 }
 
 .i3 {
-   
-    background: url('../../img/framesale.svg') no-repeat;
-
-    width: 3.815rem;
-    height: 4.12rem;
-    margin-top: 0.7rem;
-     
-  
+  background: url('../../img/framesale.svg') no-repeat;
+  width: 3.815rem;
+  height: 4.12rem;
+  margin-top: 0.7rem;
 }
 
 .i4 {
-    background: url('../../img/framesale.svg') no-repeat;
-
-    width: 3.815rem;
-    height: 4.12rem;
-
+  background: url('../../img/framesale.svg') no-repeat;
+  width: 3.815rem;
+  height: 4.12rem;
 }
 
 .i5 {
-    background: url('../../img/framesale.svg') no-repeat;
-
-    width: 3.815rem;
-    height: 4.12rem;
-
+  background: url('../../img/framesale.svg') no-repeat;
+  width: 3.815rem;
+  height: 4.12rem;
 }
 
 .i6 {
-    background: url('../../img/framesale.svg') no-repeat;
-
-    width: 3.815rem;
-    height: 4.12rem;
-
+  background: url('../../img/framesale.svg') no-repeat;
+  width: 3.815rem;
+  height: 4.12rem;
 }
 
 .li1 {
+  .content {
+    width: 31.2rem;
+  }
 
+  .prise {
+    padding-top: 0.6rem;
+  }
 
-    // .title {}
+  .warapslepris {
+    width: 22.9rem;
+    padding-top: 0.9rem;
+  }
 
-    .content {
+  .more {
+    padding-top: 0.2rem;
 
-        width: 31.2rem;
-
+    .arrow {
+      padding-top: 0rem;
     }
-
-    // svg {}
-
-    .prise {
-
-        padding-top: 0.6rem;
-
-    }
-
-    .warapslepris {
-        width: 22.9rem;
-        padding-top: 9px;
-
-        // .Info {}
-    }
-
-    // .sale {}
-
-    // .salePrise {}
-
-
-    .more {
-        padding-top: 0.2rem;
-
-        .arrow {
-            padding-top: 0rem;
-        }
-    }
+  }
 }
 
 .li2 {
+  .title {
+    padding-top: 1rem;
+  }
 
-    .title {
-        padding-top: 1rem;
-    }
+  .content {
+    padding-top: 2.5rem;
+    width: 32.2rem;
+  }
 
-    .content {
-        padding-top: 2.5rem;
-        width: 32.2rem;
+  svg {
+    padding-top: 0rem;
+  }
 
-    }
+  .prise {
+    padding-top: 0.6rem;
+  }
 
-    svg {
-        // padding-top: 0.6rem;
-        padding-top: 0rem;
-    }
+  .warapslepris {
+    width: 22.9rem;
+    padding-top: 2.3rem;
+  }
 
-    .prise {
-
-        padding-top: 0.6rem;
-
-    }
-
-    .warapslepris {
-        width: 22.9rem;
-        padding-top: 2.3rem;
-
-        // .Info {}
-
-        // .sale {}
-
-        // .salePrise {}
-    }
-
-    .more {
-        padding-top: 0.2rem;
-    }
+  .more {
+    padding-top: 0.2rem;
+  }
 }
 
 .li3 {
-    .title {
-        padding-top: 1rem;
+  .title {
+    padding-top: 1rem;
+  }
+
+  .content {
+    padding-bottom: 1.6rem;
+    width: 27.2rem;
+
+    p {
+      padding-right: 0.5rem;
     }
+  }
 
-    .content {
-        padding-bottom: 1.6rem;
-        width: 27.2rem;
+  .prise {
+    padding-top: 0.6rem;
+  }
 
-        p {
-            padding-right: 0.5rem;
-        }
+  .warapslepris {
+    width: 22.9rem;
+    padding-top: 0.8rem;
+  }
 
-    }
-
-    // svg {
-        // padding-top: 0.6rem;
-        // padding-top: 4px;
-        // margin-top: 10px
-    // }
-
-    .prise {
-
-        padding-top: 0.6rem;
-
-    }
-
-    .warapslepris {
-        width: 22.9rem;
-        padding-top: 0.8rem;
-
-        // .Info {}
-
-        // .sale {}
-
-        // .salePrise {}
-    }
-
-    .more {
-        padding-top: 0.2rem;
-    }
+  .more {
+    padding-top: 0.2rem;
+  }
 }
 
 .li4 {
-    .title {
-        padding-top: 1.1rem;
-        width: 28.5rem;
-        padding-right: 0.5rem;
-    }
+  .title {
+    padding-top: 1.1rem;
+    width: 28.5rem;
+    padding-right: 0.5rem;
+  }
 
-    .content {
-        width: 29.8rem;
+  .content {
+    width: 29.8rem;
+  }
 
+  .warapslepris {
+    padding-top: 0.6rem;
+  }
 
-    }
-
-    // svg {}
-
-    // .prise {}
-
-    .warapslepris {
-        padding-top: 0.6rem;
-
-        // .Info {}
-    }
-
-    // .sale {}
-
-    // .salePrise {}
-
-
-    .more {
-        padding-top: 0.2rem;
-    }
-
+  .more {
+    padding-top: 0.2rem;
+  }
 }
 
 .li5 {
-    .title {
-        padding-top: 1rem;
-        width: 28.5rem;
-    }
+  .title {
+    padding-top: 1rem;
+    width: 28.5rem;
+  }
 
-    .content {
-        width: 29.8rem;
+  .content {
+    width: 29.8rem;
+  }
 
+  .warapslepris {
+    padding-top: 0.6rem;
+  }
 
-    }
-
-    // svg {}
-
-    // .prise {}
-
-    .warapslepris {
-        padding-top: 0.6rem;
-
-        // .Info {}
-    }
-
-    // .sale {}
-
-    // .salePrise {}
-
-
-    .more {
-        padding-top: 0.2rem;
-    }
-
+  .more {
+    padding-top: 0.2rem;
+  }
 }
 
 .li6 {
-    .title {
-        padding-top: 1.2rem;
-        width: 28.5rem;
-    }
+  .title {
+    padding-top: 1.2rem;
+    width: 28.5rem;
+  }
 
-    .content {
-        width: 31.2rem;
-        margin-top: 2.9rem;
-        margin-bottom: 1.5rem;
+  .content {
+    width: 31.2rem;
+    margin-top: 2.9rem;
+    margin-bottom: 1.5rem;
+  }
 
+  .prise {
+    padding-top: 0.7rem;
+  }
 
-    }
+  .warapslepris {
+    padding-top: 0.8rem;
+  }
 
-    // svg {
-        // padding-top: 0.3rem;
-    // }
-
-    .prise {
-        padding-top: 0.7rem;
-
-
-    }
-
-    .warapslepris {
-        padding-top: 0.8rem;
-
-        // .Info {}
-    }
-
-    // .sale {}
-
-    // .salePrise {}
-
-
-    .more {
-        padding-top: 0.2rem;
-    }
-
+  .more {
+    padding-top: 0.2rem;
+  }
 }

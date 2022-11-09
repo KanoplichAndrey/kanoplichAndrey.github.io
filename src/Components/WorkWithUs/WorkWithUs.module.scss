@@ -1,31 +1,30 @@
 .wrapOurResult{
   width: 1200px;
-  // height: 384px;
   margin: 0 auto;
   .h1{
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 3.8rem;
     line-height: 120%;
     color: #212121;
-    padding-bottom: 60px;
+    padding-bottom: 6rem;
   }
   .p{
       font-family: 'Montserrat';
       font-style: normal;
       font-weight: 500;
-      font-size: 16px;
+      font-size: 1.6rem;
       line-height: 140%;
       color: #212121;
-      padding-bottom: 40px;
+      padding-bottom: 4rem;
   }
 
   .tab {
       overflow: hidden;
       background: #F4F4F4;
-      width: 1200px;
+      width: 120rem;
     }
 
     .tab button {
@@ -34,59 +33,57 @@
       border: none;
       outline: none;
       cursor: pointer;
-      padding: 16px 35px;
+      padding: 1.6rem 3.5rem;
       transition: 0.3s;
       font-family: 'Montserrat';
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
+      font-size: 1.4rem;
       line-height: 140%;
       text-align: center;
       color: #212121;
-      width: 240px;
-      height: 90px;
-      border-right: 1px solid #33333333;
-      border-left:1px solid #33333333;;
+      width: 24rem;
+      height: 9rem;
+      border-right: 0.1rem solid #33333333;
+      border-left:0.1rem solid #33333333;;
 
     }
 
     .tablinks{
       background: #333333;
-      // background: rgb(128, 5, 5);
-      border-right: 1px solid rgba(51, 51, 51, 0.2);
+      border-right: 0.1rem solid rgba(51, 51, 51, 0.2);
 
     }
     
     .tab button:hover {
       background: #FF5900;
-      border-right: 1px solid rgba(51, 51, 51, 0.2);
+      border-right: 0.1rem solid rgba(51, 51, 51, 0.2);
       color: #FFFFFF;
     }
     
     
      button .active {
       background: #FF5900;
-      border-right: 1px solid rgba(51, 51, 51, 0.2);
+      border-right: 0.1rem solid rgba(51, 51, 51, 0.2);
       color: #FFFFFF;  
 
     }
     .active{
-      // background: #6e0606;
       border: none;
       color: #FFFFFF;
     }
 
     .tablinks.active {
       background: #FF5900;
-      border-right: 1px solid rgba(51, 51, 51, 0.2);
+      border-right: 0.1rem solid rgba(51, 51, 51, 0.2);
       border: none;
       color: #FFFFFF;
     }
     
     
-    .tabcontent {
+    // .tabcontent {
      
-    }
+    // }
       li:nth-child(2):before,
       li:nth-child(3):before,
       li:nth-child(4):before,
@@ -109,25 +106,62 @@
       /* padding: 40px 275px 50px 275px; */
       display: flex;
       background: #FFFFFF;
-      border: 1px solid rgba(51, 51, 51, 0.2);
+      border: 0.1rem solid rgba(51, 51, 51, 0.2);
       height: 100%;
       justify-content: space-between;
          ul{
           font-family: 'Montserrat';
           font-style: normal;
           font-weight: 500;
-          font-size: 14px;
+          font-size: 1.4rem;
           line-height: 140%;
           color: #212121;
-          padding:40px 186px 60px 40px;
+          padding:4rem 18.6rem 6rem 4rem;
       
           }
-          .img {
-            padding:22px 70px 0px 0px;
-           img{
-            width: 267px;
-            height: 258px;
-           } 
+          .imgq{
+            padding:2.2rem 7rem 0rem 0rem;
+         
+          .img1 {
+            
+            background: url('../../img/Screen.png') no-repeat center ;
+            width: 26.7rem;
+            height: 25.8rem;
+            background-size: cover;
+           
           }
+          .img2 {
+            // padding:2.2rem 7rem 0rem 0rem;
+            background: url('../../img/image22.png') no-repeat center ;
+            width: 26.7rem;
+            height: 25.8rem;
+            background-size: cover;
+          }
+            .img3 {
+            // padding:2.2rem 7rem 0rem 0rem;
+            background: url('../../img/image33.png') no-repeat center ;
+            width: 26.7rem;
+            height: 25.8rem;
+            background-size: contain;
+           } 
+          
+          .img4 {
+            // padding:2.2rem 7rem 0rem 0rem;
+            background: url('../../img/image44.png') no-repeat center ;
+            width: 26.7rem;
+            height: 25.8rem;
+            background-size: contain;
+           } 
+         
+          .img5 {
+            // padding:2.2rem 7rem 0rem 0rem;
+            background: url('../../img/image55.png') no-repeat center ;
+            background-size: contain;
+            width: 26.7rem;
+            height: 25.8rem;
+           
+          }
+         }
+          
       }      
 }

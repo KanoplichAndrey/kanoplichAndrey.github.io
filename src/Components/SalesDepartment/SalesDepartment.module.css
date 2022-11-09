@@ -1,0 +1,77 @@
+.wrapSalesDepartment {
+  width: 120rem;
+  margin: 0 auto;
+  display: flex;
+}
+.wrapSalesDepartment .leftWrap {
+  padding: 12rem 0px 12rem 0;
+}
+.wrapSalesDepartment .leftWrap img {
+  width: 36rem;
+  height: 54.4rem;
+}
+.wrapSalesDepartment .rightWrap .wrapColumn {
+  padding-left: 6rem;
+}
+.wrapSalesDepartment .rightWrap .wrapColumn .title {
+  padding: 24.6rem 0 5.6rem 0;
+}
+.wrapSalesDepartment .rightWrap .wrapColumn .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 120%;
+  color: #212121;
+}
+.wrapSalesDepartment .rightWrap .wrapColumn .wrapContent {
+  display: grid;
+  grid-template-columns: 51% 49%;
+}
+.wrapSalesDepartment .rightWrap .wrapColumn .wrapContent .left {
+  padding: 0 1.4rem 1.8rem 0;
+}
+.wrapSalesDepartment .rightWrap .wrapColumn .wrapContent .left p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 140%;
+  color: #212121;
+  opacity: 0.5;
+}
+.wrapSalesDepartment .rightWrap .wrapColumn .wrapContent .right {
+  padding-left: 2.3rem;
+}
+.wrapSalesDepartment .rightWrap .wrapColumn .wrapContent .right .rightContent {
+  padding: 0 1.3rem 3.9rem 0;
+}
+.wrapSalesDepartment .rightWrap .wrapColumn .wrapContent .right .rightContent p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 140%;
+  color: #212121;
+}
+.wrapSalesDepartment .rightWrap .wrapColumn .wrapContent .btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #ffffff;
+  width: 30.3rem;
+  height: 6.2rem;
+  background: #ff5900;
+  -webkit-backdrop-filter: blur(0.25rem);
+          backdrop-filter: blur(0.25rem);
+  border-radius: 10rem;
+  border: none;
+}
+.wrapSalesDepartment .rightWrap .wrapColumn .wrapContent .btn:hover {
+  background: #ca4600;
+  -webkit-backdrop-filter: blur(0.25rem);
+          backdrop-filter: blur(0.25rem);
+  border-radius: 10rem;
+}/*# sourceMappingURL=SalesDepartment.module.css.map */

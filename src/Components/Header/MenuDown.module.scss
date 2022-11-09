@@ -8,29 +8,45 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 2.5rem;
-    .dropDown{
-        position: absolute;
-        background: #FFFFFF;
-        top: 100%;
-        left: 0;
-        width: 35.2rem;
-        opacity:0;
-        visibility:hidden;
-        transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+ 
+       
+    // .dropDown{
+    //     position: absolute;
+    //     background: #FFFFFF;
+    //     top: 100%;
+    //     left: 0;
+    //     width: 35.2rem;
+    //     opacity:0;
+    //     visibility:hidden;
+    //     transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
         
-    }
-    .active, .dropDown:hover{
+    // }
+    // .dropDown:hover{
+    //     position: absolute;
+    //     background: #FFFFFF;
+    //     top: 100%;
+    //     left: 0;
+    //     width: 35.2rem;
+    //     z-index: 2;;
+    //     opacity: 1;
+    //     visibility: visible;
+    //     transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+
+    // }
+    .dropDownList {
         position: absolute;
         background: #FFFFFF;
         top: 100%;
         left: 0;
         width: 35.2rem;
-        z-index: 2;;
+        z-index: 2;
         opacity: 1;
-        visibility: visible;
-        transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+        // visibility: visible;
+        // transition: opacity 0.8s ease-in-out, visibility 0.3s ease-in-out;
+
 
     }
+    
     
 
     .realit{
@@ -49,8 +65,11 @@
             text-transform: uppercase;
             color: #212121;
             opacity: 0.5;
-            border-bottom: 0.1rem solid #212121;;
+            border-bottom: 0.1rem solid #212121;
+
         }
+     
+
    .menuBtn {
         cursor: pointer;
         background: #FFFFFF;
@@ -78,6 +97,7 @@
             }
                 ul li{
             
+    
             a{
                 font-family: 'Montserrat';
                 font-style: normal;
@@ -87,6 +107,7 @@
                 letter-spacing: 0.01em;
                 text-transform: uppercase;
                 color: #212121;
+
             }
         } 
      
@@ -102,5 +123,7 @@
        fill: opacity 3;
        
     }
+    
+      
 }
 

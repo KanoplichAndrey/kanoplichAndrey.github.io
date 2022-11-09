@@ -1,5 +1,5 @@
-import  React  from 'react';
-import { useState } from 'react'
+import React from 'react';
+import { useState } from 'react';
 import coverimg from '../../img/photo.png';
 import Button from '../Button/Button';
 import s from './Cover.module.css';
@@ -8,14 +8,13 @@ const Cover = () => {
   const [active, setActive] = useState('true');
 
   const Active = () => {
-    setActive(!active)
-  }
-  
-  return ( <>
-    
+    setActive(!active);
+  };
+
+  return (
+    <>
       <div className={s.wrapCover}>
         <img className={s.wrapPhoto} title="my-img" src={coverimg} alt="my-img" />
-
         <div className={s.content}>
           <h1>Комплексный интернет-маркетинг</h1>
           <h3>
