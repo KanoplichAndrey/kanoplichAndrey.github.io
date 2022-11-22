@@ -5,16 +5,16 @@ const BenefitsCart = ({content, cls}) => {
 
    return ( <>
       
-         <div className={s.cartWrap}>
+         
+            <div className={s.cartWrap}>
             <div className={s.cartWrapLight} >
-            <div className={ `${s.cartIcon} ${s[cls]}`}>
-               
+               <div className={ `${s.cartIcon} ${s[cls]}`}></div>
+               <div className={s.cartContent}>
+                  <p>{content}</p>
+               </div>
             </div>
-            <div className={s.cartContent}>
-               <p>{content}</p>
             </div>
-            </div>
-         </div>
+         
       </>
    );
 };

@@ -17,7 +17,8 @@ const BestSolutions = () => {
 
   return (
     <div className={s.wrapBestSolutions}>
-      <div className={s.wrap}>
+      <div className={s.cont}>
+        <div className={s.wrap}>
         <div className={s.title}>
           <h2>Лучшие решения для увеличения продаж</h2>
         </div>
@@ -31,6 +32,7 @@ const BestSolutions = () => {
           })}
         </ul>
       </div>
+    </div>
     </div>
   );
 };

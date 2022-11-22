@@ -14,7 +14,9 @@ const DigitalPaket = () => {
   }, []);
   return (
     <>
+       <div className={s.cont}>
       <div className={s.digitalWrap}>
+        <div className={s.container}>
         <div className={s.title}>
           <h2>
             Антикризисные <span>DIGITAL-пакеты</span>
@@ -25,6 +27,8 @@ const DigitalPaket = () => {
             <Cart {...item} key={i} />
           ))}
         </div>
+        </div>
+      </div>
       </div>
     </>
   );

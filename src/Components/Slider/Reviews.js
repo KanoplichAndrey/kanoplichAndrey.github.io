@@ -6,6 +6,7 @@ import Button from '../Button/Button';
 const Reviews = () => {
   return (
     <div className={s.Testimonials}>
+      <div className={s.wrapContainer}>
       <div className={s.title}>
         <h2>Отзывы наших клиентов</h2>
       </div>
@@ -13,6 +14,7 @@ const Reviews = () => {
       <div className={s.button}>
         <Button customClass={s.btn} text="Смотреть все отзывы" />
       </div>
+    </div>
     </div>
   );
 };

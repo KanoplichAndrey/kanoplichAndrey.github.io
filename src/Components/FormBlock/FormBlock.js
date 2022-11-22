@@ -4,6 +4,7 @@ import ContactForm from './ContactForm';
 const FormBlock = () => {
   return (
     <div className={s.wrapForm}>
+      <div className={s.wrapcontainer}>
         <div className={s.formContent}>
             <div className={s.title}>
                 <h2>Найдем клиентов в Интернете для Вас</h2>
@@ -17,6 +18,7 @@ const FormBlock = () => {
            <ContactForm />
             </div>
         </div>
+    </div>
     </div>
   );
 }

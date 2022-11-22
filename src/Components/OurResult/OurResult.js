@@ -8,21 +8,23 @@ const OurResult = () => {
   const openTab = (e) => setActive(+e.target.dataset.index);
   return (
     <div className={s.wrapOurResult}>
-      <h1 className={s.h1}>Мы всегда достигаем обещанного результата</h1>
-      <p className={s.p}>И вот почему:</p>
-      <div>
-        <div className={s.tab}>
-          {ourResult.map((n, i) => (
-            <button
-              className={` tablinks ${i === active ? 'active' : ''}`}
-              onClick={openTab}
-              data-index={i}
-              key={i}>
-              {n.title}
-            </button>
-          ))}
+      <div className={s.wrapContainer}>
+        <h1 className={s.h1}>Мы всегда достигаем обещанного результата</h1>
+        <p className={s.p}>И вот почему:</p>
+        {/* <div> */}
+          <div className={s.tab}>
+            {ourResult.map((n, i) => (
+              <button
+                className={` tablinks ${i === active ? 'active' : ''}`}
+                onClick={openTab}
+                data-index={i}
+                key={i}>
+                {n.title}
+              </button>
+            ))}
+          {/* </div> */}
+          {ourResult[active] && <TabContent {...ourResult[active]} />}
         </div>
-        {ourResult[active] && <TabContent {...ourResult[active]} />}
       </div>
     </div>
   );

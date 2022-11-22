@@ -36,4 +36,30 @@
   color: #212121;
   opacity: 0.5;
   padding-top: 0.4rem;
+}
+
+@media (max-width: 992px) {
+  .cartWrap .img1 {
+    margin-right: 5px;
+    width: 20rem;
+    height: 20rem;
+  }
+  .cartWrap .img2 {
+    margin-right: 5px;
+    width: 20rem;
+    height: 20rem;
+  }
+  .cartWrap .img3 {
+    margin-right: 5px;
+    width: 20rem;
+    height: 20rem;
+  }
+}
+@media (max-width: 768px) {
+  .names {
+    color: white;
+  }
+  .jobTitles {
+    color: white;
+  }
 }/*# sourceMappingURL=Card.module.css.map */

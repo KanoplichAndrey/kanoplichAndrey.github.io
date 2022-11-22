@@ -38,10 +38,12 @@ const WorkWithUs = () => {
       </div>
     );
   };
+ 
   return (
     <div className={s.wrapOurResult}>
+      <div className={s.wrapContainer}>
       <h1 className={s.h1}> Как начать с нами работать </h1>
-      <div>
+      <div className={s.contTab}>
         <div className={s.tab}>
           {items1.map((n, i) => (
             <button
@@ -55,6 +57,7 @@ const WorkWithUs = () => {
         </div>
         {items1[active] && <TabContent {...items1[active]} />}
       </div>
+    </div>
     </div>
   );
 };

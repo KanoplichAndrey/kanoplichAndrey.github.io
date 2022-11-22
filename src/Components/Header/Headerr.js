@@ -4,12 +4,17 @@ import MenuDown from './MenuDown';
 import MenuUp from './MenuUp';
 
 const Headerr = () => {
-  return (
-    <div className={s.wrapHeader}>
-      <MenuUp />
+  return (<>
+  <div className={s.cont}>
+    <div className={s.wrapHeaderUp}>
+      <MenuUp /> 
+      </div>
       <hr></hr>
+      <div className={s.wrapHeaderDouwn}>
       <MenuDown />
-    </div>
+   </div>
+   </div>
+   </>
   );
 };
 

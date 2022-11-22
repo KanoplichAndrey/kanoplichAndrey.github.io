@@ -8,17 +8,21 @@
   text-decoration: none;
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  width: 100vh;
   overflow-x: hidden;
+  height: 100%;
+}
+
+body.noscroll {
+  overflow: hidden;
 }
 
 button {
   cursor: pointer;
-}
-
-.App {
-  width: 160rem;
 }
 
 html {
@@ -29,8 +33,12 @@ html {
   color: orangered !important;
 }
 
-.mySlider .slick-slider.slick-initialized {
+.mySlider {
   max-width: 120rem;
+  margin: 0 auto;
+}
+
+.mySlider .slick-slider.slick-initialized {
   margin: 0 auto;
   overflow: hidden;
   position: static;
@@ -40,11 +48,6 @@ html {
   height: 42rem;
   margin-left: -3rem;
   margin-right: -3rem;
-}
-
-.mySlider .slick-track {
-  height: 42rem;
-  margin: 0 3rem;
 }
 
 .mySlider .slick-prev {
@@ -85,4 +88,13 @@ html {
   content: "";
   font-family: "";
   font-size: 0rem;
+}
+
+@media (max-width: 768px) {
+  .Headerr {
+    display: none;
+  }
+  .app {
+    display: block;
+  }
 }/*# sourceMappingURL=App.css.map */

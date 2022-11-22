@@ -1,11 +1,11 @@
 .wrapBestSolutions {
-  width: 160rem;
+  max-width: 160rem;
   height: 138.6rem;
   padding: 12rem 20rem 11.6rem 20rem;
 }
 
 .wrap {
-  width: 120rem;
+  max-width: 120rem;
   height: 115rem;
 }
 .wrap .title {
@@ -20,7 +20,7 @@
   color: #212121;
 }
 .wrap .Cart {
-  width: 120rem;
+  max-width: 120rem;
   height: 104.4rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, 30%);

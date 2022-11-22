@@ -1,12 +1,12 @@
-.BenefitsWrap {
-  width: 120rem;
+.conts .BenefitsWrap {
+  max-width: 120rem;
   margin: 0 auto;
 }
-.BenefitsWrap .BenefitsTitle {
+.conts .BenefitsWrap .BenefitsTitle {
   padding-top: 10rem;
   padding-bottom: 7rem;
 }
-.BenefitsWrap .BenefitsTitle p {
+.conts .BenefitsWrap .BenefitsTitle p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -14,36 +14,102 @@
   line-height: 120%;
   color: #212121;
 }
-.BenefitsWrap .grid {
+.conts .BenefitsWrap .grid {
   display: grid;
 }
-.BenefitsWrap .ulBenefits {
+.conts .BenefitsWrap .ulBenefits {
   display: grid;
   grid-template-columns: repeat(auto-fill, 30%);
   justify-content: space-between;
   grid-row-gap: 4rem;
+  padding-bottom: 12rem;
 }
-.BenefitsWrap li:nth-child(1) p {
-  width: 27rem;
-  height: 4.4rem;
+.conts .BenefitsWrap .liBenefits:hover {
+  cursor: pointer;
 }
-.BenefitsWrap li:nth-child(2) p {
-  width: 33.1rem;
-  height: 4.4rem;
+.conts .BenefitsWrap li:nth-child(1) p {
+  max-width: 27rem;
+  height: 100%;
+  padding-bottom: 1rem;
 }
-.BenefitsWrap li:nth-child(3) p {
-  width: 31rem;
-  height: 4.4rem;
+.conts .BenefitsWrap li:nth-child(2) p {
+  max-width: 33.1rem;
+  height: 100%;
+  padding-bottom: 1rem;
 }
-.BenefitsWrap li:nth-child(4) p {
-  width: 27.1rem;
-  height: 4.4rem;
+.conts .BenefitsWrap li:nth-child(3) p {
+  max-width: 31rem;
+  height: 100%;
+  padding-bottom: 1rem;
 }
-.BenefitsWrap li:nth-child(5) p {
-  width: 22rem;
-  height: 4.4rem;
+.conts .BenefitsWrap li:nth-child(4) p {
+  max-width: 27.1rem;
+  height: 100%;
+  padding-bottom: 1rem;
 }
-.BenefitsWrap li:nth-child(6) p {
-  width: 28rem;
-  height: 4.4rem;
+.conts .BenefitsWrap li:nth-child(5) p {
+  max-width: 22rem;
+  height: 100%;
+  padding-bottom: 1rem;
+}
+.conts .BenefitsWrap li:nth-child(6) p {
+  max-width: 28rem;
+  height: 100%;
+  padding-bottom: 1rem;
+}
+
+.conts {
+  padding: 0 15px;
+}
+
+@media (min-width: 575.98px) {
+  .conts {
+    padding: 0 calc(50% - 270px);
+  }
+}
+@media (min-width: 767.98px) {
+  .conts {
+    padding: 0 calc(50% - 360px);
+  }
+}
+@media (min-width: 991.98px) {
+  .conts {
+    padding: 0 calc(50% - 480px);
+  }
+}
+@media (min-width: 1199.98px) {
+  .conts {
+    padding: 0 calc(50% - 600px);
+  }
+}
+@media (max-width: 1200px) {
+  .BenefitsTitle {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .conts .BenefitsWrap .ulBenefits {
+    grid-template-columns: repeat(auto-fill, 100%);
+    grid-row-gap: 1rem;
+  }
+}
+@media (max-width: 768px) and (min-width: 575.98px) {
+  .conts {
+    padding: 0;
+  }
+}
+@media (max-width: 768px) and (min-width: 767.98px) {
+  .conts {
+    padding: 0;
+  }
+}
+@media (max-width: 768px) and (min-width: 991.98px) {
+  .conts {
+    padding: 0;
+  }
+}
+@media (max-width: 768px) and (min-width: 1199.98px) {
+  .conts {
+    padding: 0;
+  }
 }/*# sourceMappingURL=Benefits.module.css.map */

@@ -1,10 +1,25 @@
 .bigWrap {
+
    .CartWrap {
-      width: 120rem;
+      position: relative;
+      max-width: 120rem;
       margin: 0 auto;
       background: #F4F4F4;
       margin-right: 1rem;
       cursor: pointer;
+
+      .p {
+         position: absolute;
+         font-size: 4rem;
+         color: #FF5900;
+         top: 314px;
+         left: 431px;
+         visibility: hidden;
+      }
+
+
+
+
 
       .upWrap {
          display: flex;
@@ -36,7 +51,7 @@
                font-size: 1.6rem;
                line-height: 140%;
                color: #212121;
-               width: 75.1rem;
+               max-width: 75.1rem;
             }
 
          }
@@ -214,3 +229,107 @@
 
    }
 }
+
+@media (max-width:1200px) {
+
+   .bigWrap {
+      .CartWrap {
+
+         .down {
+            padding: 0.2rem 4.2rem 4.2rem 3.9rem;
+            display: block;
+
+            .lineGrid {
+               border-bottom: 0.1rem solid #333333;
+               height: 0.1rem;
+               opacity: 0.2;
+               max-width: 100%;
+            }
+         }
+
+      }
+   }
+}
+
+@media (max-width:768px) {
+   .bigWrap {
+      .CartWrap {
+         background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(157, 43, 93, 0.3294117647) 100%);
+
+         .upWrap {
+            .contentUp {
+
+               p:nth-child(1),
+               p:nth-child(2) {
+                  color: #F4F4F4;
+               }
+
+
+            }
+         }
+
+         .down {
+            .downLeftWrap {
+               .downTitleLeft {
+
+                  color: white;
+                  opacity: 0.5;
+
+               }
+
+               ul {
+                  color: white;
+
+                  li {
+                     color: white;
+                  }
+               }
+            }
+
+            .lineGrid {
+               border-bottom: 0.1rem solid white;
+            }
+
+            .downRightWrap {
+
+               .downTiteRight {
+
+                  color: white;
+                  opacity: 0.5;
+
+               }
+
+               .contentRightUp {
+                  .leftUp {}
+
+                  .rightUp {
+                     color: white;
+                  }
+               }
+               .contentRightDown {
+             
+               .leftDown, .leftDown2 {
+               
+                 
+
+               }
+
+               .leftDown1 {
+                
+               }
+
+               .rightDown {
+
+                  color: white;
+               }
+
+               }
+
+            }
+           
+         }
+      }
+   }
+}
+
+   

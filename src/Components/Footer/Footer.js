@@ -9,7 +9,8 @@ import Column from './Column';
 
 const Footer = () => {
   return (
-    <div className={s.footerWrap}>
+    <div className={s.cont}>
+      <div className={s.footerWrap}>
       <div className={s.footerContainer}>
         <div className={s.gridContainer}>
           <div className={s.column1}>
@@ -51,6 +52,7 @@ const Footer = () => {
           <p>© 2008-2022 Компания «ДОМ САЙТОВ»</p>
           <p>Карта сайта | Политика конфиденциальности</p>
         </div>
+      </div>
       </div>
     </div>
   );

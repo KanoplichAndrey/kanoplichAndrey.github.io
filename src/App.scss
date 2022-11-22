@@ -9,15 +9,25 @@
 		font-family: 'Inter', sans-serif;
 		text-decoration: none;
 	}
+	html{
+		height: 100%;
+	}
 	body{
-		width: 100vh;
+		// width: 100vh;
 		overflow-x: hidden;
+		height: 100%;
+	}
+
+	body.noscroll{
+		overflow: hidden;
 	}
 	button{
 		cursor: pointer;
 	}
 	.App{
-		width: 160rem;
+		// overflow: hidden;
+		// display: flex;
+		// flex-direction: column;
 		
 	}
 	html{
@@ -28,9 +38,14 @@
 		// background: green;
 	}
 
-	//////////////////////Slider///////////////////////////
-	.mySlider .slick-slider.slick-initialized{
+	//////////////////////Slider//////////////////////////
+	.mySlider{
 		max-width: 120rem;
+		margin: 0 auto;
+	}
+	.mySlider .slick-slider.slick-initialized{
+		// max-width: 120rem;
+		// max-width: 100%;
 		margin: 0 auto;
 		overflow: hidden;
 		position: static;
@@ -43,11 +58,11 @@
 	}
 
 
-	.mySlider .slick-track{
-	  height: 42rem ;
-	  margin: 0 3rem;
+	// .mySlider .slick-track{
+	//   height: 42rem ;
+	//   margin: 0 3rem;
 	  
-	}
+	// }
 	
 	
 	.mySlider .slick-prev {
@@ -97,4 +112,47 @@
 	
 	}
 	
-	//////////////////////////////////////////////////////////////////////////
+		@media  (max-width:768px) {
+			.Headerr{
+				display: none;
+			}
+			.app{
+				display: block;
+			}
+			}
+
+/////////////////////////////////////////////////	  
+	  
+	//   @media (min-width: 575.98px){
+	// 	.App {
+	// 	  padding: 0 calc(50% - 270px);
+	// 	}
+	//   }
+	  
+	//   @media (min-width: 767.98px){
+	// 	.App {
+	// 	  padding: 0 calc(50% - 360px);
+	// 	}
+	//   }
+	  
+	//   @media (min-width: 991.98px) {
+	// 	.App {
+	// 	  padding: 0 calc(50% - 480px);
+	// 	}
+	//   }
+	  
+	//   @media (min-width: 1199.98px){
+	// 	.App {
+	// 	  padding: 0 calc(50% - 590px);
+	// 	}
+	//   }
+
+	/////////////////////////////////////////////////////
+	// @media  (max-width:1598px) {}
+	// @media  (max-width:1200px) {}
+	// @media  (max-width:992px) {}
+	// @media  (max-width:768px) {}
+	// @media (max-width:520px) {}
+	// @media  (max-width:480px) {}
+	// @media  (max-width:320px) {}
+	////////////////////////////////////////////////////

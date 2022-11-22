@@ -6,6 +6,7 @@ import Button from '../Button/Button';
 const SalesDepartment = () => {
   return (
     <div className={s.wrapSalesDepartment}>
+      <div className={s.wrapContainer}>
       <div className={s.leftWrap}>
         <img title="my-img" src={book} alt="my-img" />
       </div>
@@ -34,6 +35,7 @@ const SalesDepartment = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

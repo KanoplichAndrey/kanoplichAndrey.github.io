@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import coverimg from '../../img/photo.png';
+// import coverimg from '../../img/photo.png';
 import Button from '../Button/Button';
 import s from './Cover.module.css';
 
@@ -13,9 +13,11 @@ const Cover = () => {
 
   return (
     <>
+      <div className={s.cont}>
       <div className={s.wrapCover}>
-        <img className={s.wrapPhoto} title="my-img" src={coverimg} alt="my-img" />
-        <div className={s.content}>
+        {/* <img className={s.wrapPhoto} title="my-img" src={coverimg} alt="my-img" /> */}
+        <div className={s.container}>
+        <div className={s.containerContent}>
           <h1>Комплексный интернет-маркетинг</h1>
           <h3>
             Мы помогаем бизнесу находить клиентов быстрее, интегрируя маркетинговые, обучающие и
@@ -23,7 +25,7 @@ const Cover = () => {
           </h3>
           <div className={s.inputWrap}>
             <Button
-              href="test"
+               href="test" // сделать ссылкой
               customClass={active ? s.btnContentLeft : s.btnContentLeftTrue}
               onClick={Active}
               text="Заказать увеличение продаж"
@@ -35,6 +37,8 @@ const Cover = () => {
             />
           </div>
         </div>
+        </div>
+      </div>
       </div>
     </>
   );

@@ -4,7 +4,7 @@ import s from './TabContent.module.css';
 const TabContent = ({ content }) => {
   return (
     <div className={s.tabcontent}>
-      <div>
+      <div className={s.tabc}>
         <p>{content}</p>
       </div>
     </div>

@@ -1,8 +1,4 @@
-.wrapOurResult {
-  width: 1200px;
-  margin: 0 auto;
-}
-.wrapOurResult .h1 {
+.wrapOurResult .wrapContainer .h1 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -11,7 +7,7 @@
   color: #212121;
   padding-bottom: 6rem;
 }
-.wrapOurResult .p {
+.wrapOurResult .wrapContainer .p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -20,12 +16,11 @@
   color: #212121;
   padding-bottom: 4rem;
 }
-.wrapOurResult .tab {
+.wrapOurResult .wrapContainer .tab {
   overflow: hidden;
   background: #F4F4F4;
-  width: 120rem;
 }
-.wrapOurResult .tab button {
+.wrapOurResult .wrapContainer .tab button {
   background-color: inherit;
   float: left;
   border: none;
@@ -45,36 +40,36 @@
   border-right: 0.1rem solid rgba(51, 51, 51, 0.2);
   border-left: 0.1rem solid rgba(51, 51, 51, 0.2);
 }
-.wrapOurResult .tablinks {
+.wrapOurResult .wrapContainer .tablinks {
   background: #333333;
   border-right: 0.1rem solid rgba(51, 51, 51, 0.2);
 }
-.wrapOurResult .tab button:hover {
+.wrapOurResult .wrapContainer .tab button:hover {
   background: #FF5900;
   border-right: 0.1rem solid rgba(51, 51, 51, 0.2);
   color: #FFFFFF;
 }
-.wrapOurResult button .active {
+.wrapOurResult .wrapContainer button .active {
   background: #FF5900;
   border-right: 0.1rem solid rgba(51, 51, 51, 0.2);
   color: #FFFFFF;
 }
-.wrapOurResult .active {
+.wrapOurResult .wrapContainer .active {
   border: none;
   color: #FFFFFF;
 }
-.wrapOurResult .tablinks.active {
+.wrapOurResult .wrapContainer .tablinks.active {
   background: #FF5900;
   border-right: 0.1rem solid rgba(51, 51, 51, 0.2);
   border: none;
   color: #FFFFFF;
 }
-.wrapOurResult li:nth-child(2):before,
-.wrapOurResult li:nth-child(3):before,
-.wrapOurResult li:nth-child(4):before,
-.wrapOurResult li:nth-child(5):before,
-.wrapOurResult li:nth-child(6):before,
-.wrapOurResult li:nth-child(7):before {
+.wrapOurResult .wrapContainer li:nth-child(2):before,
+.wrapOurResult .wrapContainer li:nth-child(3):before,
+.wrapOurResult .wrapContainer li:nth-child(4):before,
+.wrapOurResult .wrapContainer li:nth-child(5):before,
+.wrapOurResult .wrapContainer li:nth-child(6):before,
+.wrapOurResult .wrapContainer li:nth-child(7):before {
   content: "";
   display: inline-block;
   height: 0.2rem;
@@ -85,16 +80,15 @@
   margin-right: 0.9rem;
   margin-left: 0.9rem;
 }
-.wrapOurResult .tabcontent {
+.wrapOurResult .wrapContainer .tabcontent {
   display: none;
-  /* padding: 40px 275px 50px 275px; */
   display: flex;
   background: #FFFFFF;
   border: 0.1rem solid rgba(51, 51, 51, 0.2);
   height: 100%;
   justify-content: space-between;
 }
-.wrapOurResult .tabcontent ul {
+.wrapOurResult .wrapContainer .tabcontent ul {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -103,36 +97,118 @@
   color: #212121;
   padding: 4rem 18.6rem 6rem 4rem;
 }
-.wrapOurResult .tabcontent .imgq {
+.wrapOurResult .wrapContainer .tabcontent .imgq {
   padding: 2.2rem 7rem 0rem 0rem;
 }
-.wrapOurResult .tabcontent .imgq .img1 {
+.wrapOurResult .wrapContainer .tabcontent .imgq .img1 {
   background: url("../../img/Screen.png") no-repeat center;
   width: 26.7rem;
   height: 25.8rem;
   background-size: cover;
 }
-.wrapOurResult .tabcontent .imgq .img2 {
+.wrapOurResult .wrapContainer .tabcontent .imgq .img2 {
+  padding: 0rem 0rem 0rem 0rem;
   background: url("../../img/image22.png") no-repeat center;
   width: 26.7rem;
   height: 25.8rem;
   background-size: cover;
 }
-.wrapOurResult .tabcontent .imgq .img3 {
-  background: url("../../img/image33.png") no-repeat center;
+.wrapOurResult .wrapContainer .tabcontent .imgq .img3 {
+  background: url("../../img/image33.png") no-repeat center right 0px;
   width: 26.7rem;
   height: 25.8rem;
-  background-size: contain;
+  background-size: cover;
 }
-.wrapOurResult .tabcontent .imgq .img4 {
+.wrapOurResult .wrapContainer .tabcontent .imgq .img4 {
   background: url("../../img/image44.png") no-repeat center;
   width: 26.7rem;
   height: 25.8rem;
   background-size: contain;
 }
-.wrapOurResult .tabcontent .imgq .img5 {
+.wrapOurResult .wrapContainer .tabcontent .imgq .img5 {
   background: url("../../img/image55.png") no-repeat center;
   background-size: contain;
   width: 26.7rem;
   height: 25.8rem;
+}
+
+.wrapOurResult {
+  padding: 0 15px;
+}
+
+@media (min-width: 575.98px) {
+  .wrapOurResult {
+    padding: 0 calc(50% - 270px);
+  }
+}
+@media (min-width: 767.98px) {
+  .wrapOurResult {
+    padding: 0 calc(50% - 360px);
+  }
+}
+@media (min-width: 991.98px) {
+  .wrapOurResult {
+    padding: 0 calc(50% - 480px);
+  }
+}
+@media (min-width: 1199.98px) {
+  .wrapOurResult {
+    padding: 0 calc(50% - 600px);
+  }
+}
+@media (max-width: 1199px) {
+  .wrapOurResult .wrapContainer .tab button {
+    width: 19.2rem;
+  }
+  .wrapOurResult .wrapContainer .tabcontent ul {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .wrapOurResult .wrapContainer .tabcontent .imgq {
+    padding: 0 0 0 0;
+  }
+}
+@media (max-width: 992px) {
+  .wrapOurResult .wrapContainer .tab button {
+    width: 24rem;
+  }
+}
+@media (max-width: 768px) {
+  .wrapOurResult .wrapContainer .contTab {
+    display: flex;
+  }
+  .wrapOurResult .wrapContainer .contTab .tab {
+    max-width: 30%;
+  }
+  .wrapOurResult .wrapContainer .contTab .tab button {
+    max-width: -webkit-fill-available;
+  }
+  .wrapOurResult .wrapContainer .contTab .tablinks {
+    padding: 0.6rem 0.5rem;
+  }
+  .wrapOurResult .wrapContainer .tabcontent {
+    flex-direction: column-reverse;
+  }
+  .wrapOurResult .wrapContainer .tabcontent .imgq {
+    margin: 0 auto;
+  }
+  .wrapOurResult .wrapContainer .tabcontent .imgq .img1 {
+    width: 16.7rem;
+    height: 16.8rem;
+  }
+  .wrapOurResult .wrapContainer .tabcontent .imgq .img2 {
+    width: 16.7rem;
+    height: 16.8rem;
+  }
+  .wrapOurResult .wrapContainer .tabcontent .imgq .img3 {
+    width: 16.7rem;
+    height: 16.8rem;
+  }
+  .wrapOurResult .wrapContainer .tabcontent .imgq .img4 {
+    width: 16.7rem;
+    height: 16.8rem;
+  }
+  .wrapOurResult .wrapContainer .tabcontent .imgq .img5 {
+    width: 16.7rem;
+    height: 16.8rem;
+  }
 }/*# sourceMappingURL=WorkWithUs.module.css.map */

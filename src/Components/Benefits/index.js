@@ -6,6 +6,7 @@ import { benefitsCart } from '../../Base/Base';
 const Benefits = () => {
   return (
     <>
+    <div className={s.conts}>
       <div className={s.BenefitsWrap}>
         <div className={s.BenefitsTitle}>
           <p>Преимущества работы с нами</p>
@@ -20,6 +21,7 @@ const Benefits = () => {
             );
           })}
         </ul>
+      </div>
       </div>
     </>
   );

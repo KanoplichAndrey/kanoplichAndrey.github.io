@@ -1,12 +1,12 @@
 .wrapCart {
-  width: 36rem;
+  max-width: 36rem;
   height: 50.2rem;
   display: grid;
   justify-items: center;
   border: 1px solid #333333;
 }
 .wrapCart .MainText {
-  width: 31.2rem;
+  max-width: 31.2rem;
   height: 17.1rem;
   border-bottom: 0.1rem solid black;
   display: grid;
@@ -34,7 +34,7 @@
   opacity: 0.5;
 }
 .wrapCart .Info {
-  width: 31.2rem;
+  max-width: 31.2rem;
 }
 .wrapCart .Info .prise {
   display: flex;
@@ -61,7 +61,7 @@
 }
 .wrapCart .Info .wrapSale .i1 {
   background: url("../../img/framesale.svg") no-repeat;
-  width: 3.815rem;
+  max-width: 3.815rem;
   height: 4.12rem;
 }
 .wrapCart .Info .wrapSale .i2 {
@@ -69,22 +69,22 @@
 }
 .wrapCart .Info .wrapSale .i3 {
   background: url("../../img/framesale.svg") no-repeat;
-  width: 3.815rem;
+  max-width: 3.815rem;
   height: 4.12rem;
 }
 .wrapCart .Info .wrapSale .i4 {
   background: url("../../img/framesale.svg") no-repeat;
-  width: 3.815rem;
+  max-width: 3.815rem;
   height: 4.12rem;
 }
 .wrapCart .Info .wrapSale .i5 {
   background: url("../../img/framesale.svg") no-repeat;
-  width: 3.815rem;
+  max-width: 3.815rem;
   height: 4.12rem;
 }
 .wrapCart .Info .wrapSale .i6 {
   background: url("../../img/framesale.svg") no-repeat;
-  width: 3.815rem;
+  max-width: 3.815rem;
   height: 4.12rem;
 }
 .wrapCart .Info .wrapSale .warapslepris .salePrise p {
@@ -135,36 +135,36 @@ s.c {
 
 .img1 {
   background: url("../../img/pho1.svg") no-repeat;
-  width: 36rem;
+  max-width: 36rem;
   height: 11.7rem;
 }
 
 .img2 {
   background: url("../../img/pho2.svg") no-repeat;
-  width: 36rem;
+  max-width: 36rem;
   height: 11.7rem;
 }
 
 .img3 {
   background: url("../../img/pho3.svg") no-repeat;
-  width: 36rem;
+  max-width: 36rem;
   height: 11.7rem;
 }
 
 .img4 {
   background: url("../../img/pho4.svg") no-repeat;
-  width: 36rem;
+  max-width: 36rem;
   height: 11.7rem;
 }
 
 .img5 {
   background: url("../../img/pho5.svg") no-repeat;
-  width: 36rem;
+  max-width: 36rem;
   height: 11.7rem;
 }
 
 .img6 {
   background: url("../../img/pho6.svg") no-repeat;
-  width: 36rem;
+  max-width: 36rem;
   height: 11.7rem;
 }/*# sourceMappingURL=Cart2BestSolutions.module.css.map */

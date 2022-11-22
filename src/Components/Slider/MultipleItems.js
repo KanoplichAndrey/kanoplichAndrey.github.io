@@ -5,6 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Card from './Card';
 import { arrow } from '../../Base/Base';
 
+
 const arrowSize = '56px';
 
 function SampleNextArrow({ className, onClick }) {
@@ -39,6 +40,35 @@ export const MultipleItems = () => {
     initialSlide: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+          // centerMode: true,
+          // centerPadding: '60px'
+           
+        }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (

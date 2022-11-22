@@ -1,5 +1,5 @@
 .wrapCart {
-    width: 36rem;
+    max-width: 36rem;
     height: 50.2rem;
     display: grid;
     justify-items: center;
@@ -7,7 +7,7 @@
 
 
     .MainText {
-        width: 31.2rem;
+        max-width: 31.2rem;
         height: 17.1rem;
         border-bottom: 0.1rem solid black;
         display: grid;
@@ -43,7 +43,7 @@
     }
 
     .Info {
-        width: 31.2rem;
+        max-width: 31.2rem;
 
         .prise {
             display: flex;
@@ -73,7 +73,7 @@
 
             .i1 {
                 background: url('../../img/framesale.svg') no-repeat;
-                width: 3.815rem;
+                max-width: 3.815rem;
                 height: 4.12rem;
 
             }
@@ -86,28 +86,28 @@
 
             .i3 {
                 background: url('../../img/framesale.svg') no-repeat;
-                width: 3.815rem;
+                max-width: 3.815rem;
                 height: 4.12rem;
 
             }
 
             .i4 {
                 background: url('../../img/framesale.svg') no-repeat;
-                width: 3.815rem;
+                max-width: 3.815rem;
                 height: 4.12rem;
 
             }
 
             .i5 {
                 background: url('../../img/framesale.svg') no-repeat;
-                width: 3.815rem;
+                max-width: 3.815rem;
                 height: 4.12rem;
 
             }
 
             .i6 {
                 background: url('../../img/framesale.svg') no-repeat;
-                width: 3.815rem;
+                max-width: 3.815rem;
                 height: 4.12rem;
 
             }
@@ -179,37 +179,37 @@ s.c {
 
 .img1 {
     background: url('../../img/pho1.svg') no-repeat;
-    width: 36rem;
+    max-width: 36rem;
     height: 11.7rem;
 
 }
 
 .img2 {
     background: url('../../img/pho2.svg') no-repeat;
-    width: 36rem;
+    max-width: 36rem;
     height: 11.7rem;
 }
 
 .img3 {
     background: url('../../img/pho3.svg') no-repeat;
-    width: 36rem;
+    max-width: 36rem;
     height: 11.7rem;
 }
 
 .img4 {
     background: url('../../img/pho4.svg') no-repeat;
-    width: 36rem;
+    max-width: 36rem;
     height: 11.7rem;
 }
 
 .img5 {
     background: url('../../img/pho5.svg') no-repeat;
-    width: 36rem;
+    max-width: 36rem;
     height: 11.7rem;
 }
 
 .img6 {
     background: url('../../img/pho6.svg') no-repeat;
-    width: 36rem;
+    max-width: 36rem;
     height: 11.7rem;
 }

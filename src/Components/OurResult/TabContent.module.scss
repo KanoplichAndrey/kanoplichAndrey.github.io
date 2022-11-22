@@ -18,6 +18,33 @@
     line-height: 140%;
     text-align: center;
     color: #FFFFFF;
-    padding: 4rem, 27.5rem 5rem 27.5rem;
+    // padding: 4rem, 27.5rem 5rem 27.5rem;
         }
- }      
+ }    
+ 
+ @media (max-width:992px) {
+    .tabcontent{
+        padding: 0rem 0rem 0rem 0rem;
+     }    
+  }
+  @media  (max-width:768px) {
+    .tabcontent{
+                height: 110vh;
+                .tabc{
+                    display: flex;
+                }
+             }    
+  }
+  @media (max-width:520px) {
+    .tabcontent{
+        height: 73vh;
+        // .tabc{
+        //     display: flex;
+        // }
+     }    
+  }
+
+  @media  (max-width:480px) {
+    
+  }
+	// @media  (max-width:320px) {}

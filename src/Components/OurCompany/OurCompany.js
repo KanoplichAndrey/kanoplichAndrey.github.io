@@ -3,6 +3,8 @@ import s from './OurCompany.module.css';
 const OurCompany = () => {
   return (
     <div className={s.wrapOurCompany}>
+      <div className={s.cont}> 
+      <div className={s.wrapContainer}>     
       <div className={s.wrapleftOurCompany}>
         <div className={s.leftOurCompany}>
           <h2>О компании</h2>
@@ -20,6 +22,8 @@ const OurCompany = () => {
       <div className={s.rightOurCompany}>
         <div className={s.img}></div>
       </div>
+      </div>
+    </div>
     </div>
   );
 };

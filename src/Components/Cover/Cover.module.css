@@ -1,42 +1,42 @@
-.wrapCover {
-  position: relative;
-}
-
-.wrapPhoto {
-  width: 160rem;
+.cont .wrapCover {
+  max-width: 120rem;
   height: 71.6rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.content {
+.cont .container {
+  max-width: 120rem;
+  position: relative;
+  margin: 0 auto;
+}
+.cont .container .containerContent {
   position: absolute;
   top: 17rem;
-  left: 20rem;
-  width: 78rem;
+  left: 0rem;
+  max-width: 78rem;
+  z-index: 3;
 }
-.content h1 {
+.cont .container .containerContent h1 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 6.8rem;
-  line-height: 110%;
+  line-height: 112%;
   color: #FFFFFF;
   padding-bottom: 2.8rem;
 }
-.content h3 {
+.cont .container .containerContent h3 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 140%;
   color: #FFFFFF;
-  padding-bottom: 5.3rem;
+  padding-bottom: 5rem;
 }
-.content .inputWrap {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-}
-.content .inputWrap .btnContentLeft {
+.cont .container .containerContent .inputWrap .btnContentLeft {
   padding: 2rem 4rem;
   width: 36.2rem;
   height: 6.2rem;
@@ -48,23 +48,22 @@
   font-style: normal;
   font-weight: 500;
   font-size: 1.8rem;
-  line-height: 2.2rem;
   color: #FFFFFF;
   border: none;
   margin-right: 3.2rem;
+  letter-spacing: -0.06px;
 }
-.content .inputWrap .btnContentLeft:hover {
+.cont .container .containerContent .inputWrap .btnContentLeft:hover {
   background: #CA4600;
   -webkit-backdrop-filter: blur(0.25rem);
           backdrop-filter: blur(0.25rem);
 }
-.content .inputWrap .btnContentLeftTrue {
+.cont .container .containerContent .inputWrap .btnContentLeftTrue {
   padding: 1.8rem 2.6rem;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 1.8rem;
-  line-height: 2.2rem;
   color: #FFFFFF;
   width: 34.1rem;
   height: 6.2rem;
@@ -75,7 +74,7 @@
   border-radius: 10rem;
   margin-right: 3.2rem;
 }
-.content .inputWrap .btnContentRightTrue {
+.cont .container .containerContent .inputWrap .btnContentRightTrue {
   padding: 2rem 4rem;
   width: 36.2rem;
   height: 6.2rem;
@@ -87,25 +86,24 @@
   font-style: normal;
   font-weight: 500;
   font-size: 1.8rem;
-  line-height: 2.2rem;
   color: #FFFFFF;
   border: none;
   margin-right: 3.2rem;
 }
-.content .inputWrap .btnContentRight:hover {
+.cont .container .containerContent .inputWrap .btnContentRight:hover {
   border: 0.1rem solid #FF5900;
   color: #FF5900;
 }
-.content .inputWrap .btnContentLeftTrue:hover {
+.cont .container .containerContent .inputWrap .btnContentLeftTrue:hover {
   border: 0.1rem solid #FF5900;
   color: #FF5900;
 }
-.content .inputWrap .btnContentRightTrue:hover {
+.cont .container .containerContent .inputWrap .btnContentRightTrue:hover {
   background: #CA4600;
   -webkit-backdrop-filter: blur(0.25rem);
           backdrop-filter: blur(0.25rem);
 }
-.content .inputWrap .btnContentRight {
+.cont .container .containerContent .inputWrap .btnContentRight {
   width: 34.1rem;
   height: 6.2rem;
   background: rgba(255, 255, 255, 0.2);
@@ -117,6 +115,60 @@
   font-style: normal;
   font-weight: 500;
   font-size: 1.8rem;
-  line-height: 2.2rem;
   color: #FFFFFF;
+}
+.cont {
+  padding: 0 15px;
+}
+
+@media (min-width: 575.98px) {
+  .cont {
+    padding: 0 calc(50% - 270px);
+  }
+}
+@media (min-width: 767.98px) {
+  .cont {
+    padding: 0 calc(50% - 360px);
+  }
+}
+@media (min-width: 991.98px) {
+  .cont {
+    padding: 0 calc(50% - 480px);
+  }
+}
+@media (min-width: 1199.98px) {
+  .cont {
+    padding: 0 calc(50% - 600px);
+  }
+}
+@media (max-width: 992px) {
+  .cont .wrapCover .container .containerContent {
+    max-width: 78rem;
+  }
+  .cont .wrapCover .container .containerContent h1 {
+    font-size: 5.8rem;
+  }
+  .cont .wrapCover .container .containerContent h3 {
+    font-size: 1.4rem;
+  }
+  .cont .wrapCover .container .containerContent .btnContentLeft, .cont .wrapCover .container .containerContent .btnContentLeftTrue {
+    padding: 2rem 1rem;
+    font-size: 1.5rem;
+  }
+  .cont .wrapCover .container .containerContent .btnContentRight, .cont .wrapCover .container .containerContent .btnContentRightTrue {
+    padding: 2rem 1rem;
+    width: 24.1rem;
+    height: 5.7rem;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .cont .wrapCover .container .containerContent .inputWrap a {
+    margin-right: 8px;
+  }
+}
+@media (max-width: 480px) {
+  .cont .wrapCover .container .containerContent .inputWrap .btnContentRight, .cont .wrapCover .container .containerContent .inputWrap .btnContentRightTrue {
+    margin-top: 30px;
+  }
 }/*# sourceMappingURL=Cover.module.css.map */

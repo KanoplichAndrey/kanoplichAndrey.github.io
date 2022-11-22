@@ -6,6 +6,7 @@ import { Comand } from '../../Base/Base';
 const OurComand = () => {
   return (
     <div className={s.wrapComand}>
+      <div className={s.wrapContainer}>
       <h2>Наша команда</h2>
       <ul className={s.Card}>
         {Comand.map((item, i) => {
@@ -16,6 +17,7 @@ const OurComand = () => {
           );
         })}
       </ul>
+    </div>
     </div>
   );
 };

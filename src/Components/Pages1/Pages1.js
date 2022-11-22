@@ -3,7 +3,7 @@ import React from 'react';
 const Pages1 = () => {
   return (
       <>
-    <div>ggggggggggghhhhjkjhkhkjhkjhkjhk</div>
+    <div style={{ color: 'red', fontSize: '20px', marginRight: '150px' }}>ggggggggggghhhhjkjhkhkjhkjhkjhk</div>
       </>
   );
 }

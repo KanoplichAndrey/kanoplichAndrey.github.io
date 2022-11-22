@@ -12,9 +12,10 @@ import Image8 from '../../img/image8.svg';
 const icons = [Image1, Image2, Image3, Image4];
 const icons1 = [Image5, Image6, Image7, Image8];
 
-const OurClients = ({ ourClients }) => {
+const OurClients = () => {
   return (
     <div className={s.WrapOurClients}>
+      <div className={s.WrapContainer}>
       <div className={s.title}>
         <h2>Наши клиенты</h2>
       </div>
@@ -32,6 +33,7 @@ const OurClients = ({ ourClients }) => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

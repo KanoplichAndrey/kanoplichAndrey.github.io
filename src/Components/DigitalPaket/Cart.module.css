@@ -1,20 +1,36 @@
 .cartWrap1 .img1 {
   background: url("../../img/photoCart1.png") no-repeat;
   width: 36rem;
-  height: 48.7rem;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
 }
 .cartWrap1 .img2 {
   background: url("../../img/photoCart2.png") no-repeat;
   width: 36rem;
-  height: 48.7rem;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
 }
 .cartWrap1 .img3 {
   background: url("../../img/photoCart3.png") no-repeat;
   width: 36rem;
-  height: 48.7rem;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+.cartWrap1 .img1:after, .cartWrap1 .img2:after, .cartWrap1 .img3:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(157, 43, 93, 0.3294117647) 100%);
 }
 .cartWrap1 .f .wrapContent {
-  padding: 4.2rem 3.2rem 0rem 3.2rem;
+  padding: 4.2rem 3.2rem 2rem 3.2rem;
 }
 .cartWrap1 .f .wrapContent .title {
   margin-bottom: 2.3rem;
@@ -77,12 +93,14 @@
   line-height: 140%;
   color: #FFFFFF;
 }
-.cartWrap1 .f .wrapContent .btnCart {
+.cartWrap1 .f .wrapContent .btnCartWrap {
+  display: grid;
+}
+.cartWrap1 .f .wrapContent .btnCartWrap .btnCart {
   padding: 1.6rem 3.2rem;
-  width: 29.6rem;
+  max-width: 29.6rem;
   height: 5.2rem;
-  left: 3.2rem;
-  top: 39.5rem;
+  position: relative;
   border: 0.1rem solid #FF5900;
   border-radius: 10rem;
   font-family: "Montserrat";
@@ -92,10 +110,48 @@
   line-height: 2rem;
   text-align: center;
   color: #FF5900;
-  background: linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 86.98%), url(../../img/photo.png);
+  background: linear-gradient(180deg, rgba(51, 51, 51, 0.8) 0%, rgba(157, 43, 93, 0.3294117647) 100%), url(../../img/photo.png);
 }
-.cartWrap1 .f .wrapContent .btnCart:hover {
+.cartWrap1 .f .wrapContent .btnCartWrap .btnCart:hover {
   background: #CA4600;
   border-radius: 10rem;
   color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .cartWrap1 .img1 {
+    background: url("../../img/photoCart1.png") no-repeat;
+    width: 100vw;
+    background-size: cover;
+  }
+  .cartWrap1 .img2 {
+    background: url("../../img/photoCart2.png") no-repeat;
+    width: 100vw;
+    background-size: cover;
+  }
+  .cartWrap1 .img3 {
+    background: url("../../img/photoCart3.png") no-repeat;
+    width: 100vw;
+    background-size: cover;
+  }
+  .cartWrap1 .f .wrapContent .title p {
+    font-size: 2.8rem;
+  }
+  .cartWrap1 .f .wrapContent .seo p {
+    font-size: 2.6rem;
+  }
+  .cartWrap1 .f .wrapContent .content p {
+    font-size: 2.4rem;
+  }
+  .cartWrap1 .f .wrapContent .sale p {
+    font-size: 2.6rem;
+  }
+  .cartWrap1 .f .wrapContent .sale p span {
+    font-size: 2.8rem;
+  }
+  .cartWrap1 .f .wrapContent .btnCartWrap .btnCart {
+    max-width: 60%;
+    height: 5.2rem;
+    font-size: 2.6rem;
+  }
 }/*# sourceMappingURL=Cart.module.css.map */

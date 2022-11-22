@@ -9,6 +9,9 @@ const MenuDown = () => {
   const [menu, setMenu] = useState([]);
   const [open, setOpen] = useState('true');
   const [selcted, setSelcted] = useState();
+  
+
+
   const list = [
     'Пункт 1',
     'SEO продвижение сайтов в Яндекс',
@@ -21,6 +24,11 @@ const MenuDown = () => {
     setMenu(servisMenu);
   }, []);
 
+  // useEffect(() => {
+  //   setChange(!change)
+  // }, []);
+
+
 
   const onClickList = () => {
     setOpen(!open, console.log(open)) 
@@ -29,8 +37,8 @@ const MenuDown = () => {
     setSelcted(index) 
     setOpen('false')
   }
-  
-  
+ 
+
   return (
     <div className={s.wrapMenuDown}>
       <div className={s.realit}>
@@ -58,7 +66,7 @@ const MenuDown = () => {
       <ul className={s.map}>
         {menu.map((value, index) => {
           return (
-            <li key={index}>
+            <li key={index} >
               <NavLink to={'/' + value}>{value} </NavLink>{' '}
             </li>
           );
@@ -69,6 +77,7 @@ const MenuDown = () => {
       </Link>
 
     </div>
+   
   );
 };
 
