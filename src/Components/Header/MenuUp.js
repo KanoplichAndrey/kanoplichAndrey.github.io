@@ -7,14 +7,12 @@ import { Link } from 'react-router-dom';
 
 const MenuUp = () => {
   const [actives, setActives] = useState('false');
- 
 
   const Active = () => {
     setActives(!actives);
   };
 
-  return(<>
-    
+  return (
     <div className={s.wrapMenuUp}>
       <ul>
         <li>
@@ -37,7 +35,6 @@ const MenuUp = () => {
         </li>
       </ul>
     </div>
-    </>
   );
 };
 

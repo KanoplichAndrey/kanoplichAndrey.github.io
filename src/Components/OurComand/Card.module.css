@@ -1,3 +1,6 @@
+.cartWrap {
+  box-shadow: 0 0 24px rgba(9, 5, 47, 0.85);
+}
 .cartWrap .img1 {
   background: url("../../img/photo111.png") no-repeat;
   width: 36rem;
@@ -40,17 +43,14 @@
 
 @media (max-width: 992px) {
   .cartWrap .img1 {
-    margin-right: 5px;
     width: 20rem;
     height: 20rem;
   }
   .cartWrap .img2 {
-    margin-right: 5px;
     width: 20rem;
     height: 20rem;
   }
   .cartWrap .img3 {
-    margin-right: 5px;
     width: 20rem;
     height: 20rem;
   }

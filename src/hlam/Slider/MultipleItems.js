@@ -72,7 +72,7 @@ export const MultipleItems = () => {
   };
 
   return (
-    <div className={'mySlider'}>
+    <div className='mySlider'>
       <Slider {...settings}>
         {arrow.map((item, i) => (
           <Card {...item} key={i} />

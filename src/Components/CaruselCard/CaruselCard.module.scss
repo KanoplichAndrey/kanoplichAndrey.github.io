@@ -4,7 +4,7 @@
         .wrapContent {
             padding-top: 12rem;
             padding-bottom: 12rem;
-            max-width: 120rem;
+            // max-width: 120rem;
             margin-left: auto;
             margin-right: auto;
             .Title {
@@ -24,8 +24,8 @@
 
             .Content {
                 display: flex;
-                max-width: 120rem;
-                overflow-x: scroll;
+                // max-width: 120rem;
+                // overflow-x: scroll;
                 height: 100%;
 
                 &::-webkit-scrollbar {
@@ -84,8 +84,8 @@
     .wrapContent {
       .Content{
         display: block;
-        max-height: 105vh;
-        overflow-x: hidden;
+        max-height: 100%;
+        // overflow-x: hidden;
 
       }
   }

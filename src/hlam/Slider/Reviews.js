@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Reviews.module.css';
 import { MultipleItems } from './MultipleItems';
-import Button from '../Button/Button';
+import Button from '../../Components/Button/Button';
 
 const Reviews = () => {
   return (

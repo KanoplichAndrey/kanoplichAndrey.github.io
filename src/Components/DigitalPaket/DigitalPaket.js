@@ -13,24 +13,22 @@ const DigitalPaket = () => {
     setArray(servisArray);
   }, []);
   return (
-    <>
-       <div className={s.cont}>
+    <div className={s.cont}>
       <div className={s.digitalWrap}>
         <div className={s.container}>
-        <div className={s.title}>
-          <h2>
-            Антикризисные <span>DIGITAL-пакеты</span>
-          </h2>
-        </div>
-        <div className={s.classWrapCart}>
-          {array.map((item, i) => (
-            <Cart {...item} key={i} />
-          ))}
-        </div>
+          <div className={s.title}>
+            <h2>
+              Антикризисные <span>DIGITAL-пакеты</span>
+            </h2>
+          </div>
+          <div className={s.classWrapCart}>
+            {array.map((item, i) => (
+              <Cart {...item} key={i} />
+            ))}
+          </div>
         </div>
       </div>
-      </div>
-    </>
+    </div>
   );
 };
 

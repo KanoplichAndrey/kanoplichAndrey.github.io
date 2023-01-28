@@ -40,6 +40,7 @@
   color: #212121;
 }
 .wrapOurCompany .cont .wrapContainer .rightOurCompany {
+  box-shadow: 0 0 24px rgba(9, 5, 47, 0.85);
   width: 42rem;
   height: 35rem;
   background: #F4F4F4;

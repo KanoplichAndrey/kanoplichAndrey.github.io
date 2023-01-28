@@ -142,6 +142,7 @@ export const benefitsCart = [
       jobTitle: 'Должность'
    },
    ];
+   // export const arrow2CaruselCart = ['<Card />', '<Card />', '<Card />'];
    export const arrow2CaruselCart = ['<Card />', '<Card />', '<Card />', '<Card />', '<Card />', '<Card />'];
    // export const icons = [{Image1:'Image1', Image2:'Image2', Image3:'Image3', Image4:'Image4' }];
    // export const icons1 = [{Image5:'Image5', Image6:'Image6', Image7:'Image7', Image8:'Image8'}]; 
