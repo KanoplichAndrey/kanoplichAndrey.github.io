@@ -24,6 +24,10 @@ self.__precacheManifest = [
     "url": "/static/media/pho2.6d3f7239.svg"
   },
   {
+    "revision": "8f955744f49b819226810f906950364b",
+    "url": "/static/media/pho6.8f955744.svg"
+  },
+  {
     "revision": "3b9ed21928e089868cefe00264f59ed3",
     "url": "/static/media/pho4.3b9ed219.svg"
   },
@@ -32,24 +36,24 @@ self.__precacheManifest = [
     "url": "/static/media/framesale.6f7e5afa.svg"
   },
   {
-    "revision": "6d6450416dd423cff7555adcfe9cb3cd",
-    "url": "/static/media/framepresent.6d645041.svg"
+    "revision": "0b61decbccb905fa75cc18ffa46e1808",
+    "url": "/static/media/pho5.0b61decb.svg"
   },
   {
     "revision": "95242f8ba6116701351e1f57a105db53",
     "url": "/static/media/pho3.95242f8b.svg"
   },
   {
-    "revision": "8f955744f49b819226810f906950364b",
-    "url": "/static/media/pho6.8f955744.svg"
-  },
-  {
-    "revision": "0b61decbccb905fa75cc18ffa46e1808",
-    "url": "/static/media/pho5.0b61decb.svg"
+    "revision": "6d6450416dd423cff7555adcfe9cb3cd",
+    "url": "/static/media/framepresent.6d645041.svg"
   },
   {
     "revision": "b8dbd8c26b87cebb29788c194873c25a",
     "url": "/static/media/photo.b8dbd8c2.png"
+  },
+  {
+    "revision": "2ab62b4ae6f570c1bda2433a70f58f74",
+    "url": "/static/media/photoCart3.2ab62b4a.png"
   },
   {
     "revision": "187211272f1f5107906897b4c8960998",
@@ -58,14 +62,6 @@ self.__precacheManifest = [
   {
     "revision": "c158a418664b538f42b9140435fcf01f",
     "url": "/static/media/photoCart2.c158a418.png"
-  },
-  {
-    "revision": "2ab62b4ae6f570c1bda2433a70f58f74",
-    "url": "/static/media/photoCart3.2ab62b4a.png"
-  },
-  {
-    "revision": "53ae2bab700a56f06bcab16bcf29cfa1",
-    "url": "/static/media/Screen.53ae2bab.png"
   },
   {
     "revision": "cc828b780957aa9a4047968894ca475d",
@@ -78,6 +74,10 @@ self.__precacheManifest = [
   {
     "revision": "1132c7af608b2b295e248b93749ee96d",
     "url": "/static/media/image55.1132c7af.png"
+  },
+  {
+    "revision": "53ae2bab700a56f06bcab16bcf29cfa1",
+    "url": "/static/media/Screen.53ae2bab.png"
   },
   {
     "revision": "9a63371b2b28e7c15f31453e2a0b09be",
@@ -100,10 +100,6 @@ self.__precacheManifest = [
     "url": "/static/media/photo1.81843b22.png"
   },
   {
-    "revision": "760d1f06ff3bbf2e1502b75343de9bdd",
-    "url": "/static/media/photo111.760d1f06.png"
-  },
-  {
     "revision": "d8719bdb2d78804b42383d2f372300b1",
     "url": "/static/media/photo222.d8719bdb.png"
   },
@@ -112,20 +108,20 @@ self.__precacheManifest = [
     "url": "/static/media/photo333.8fbb1eef.png"
   },
   {
-    "revision": "1d55ef989d8423f20abaa21de7c7c55f",
-    "url": "/static/media/VectorPhone.1d55ef98.svg"
+    "revision": "760d1f06ff3bbf2e1502b75343de9bdd",
+    "url": "/static/media/photo111.760d1f06.png"
   },
   {
-    "revision": "e298e9b6bf62fd3a90dcdba8e5e78550",
-    "url": "/static/media/icon2.e298e9b6.svg"
+    "revision": "1d55ef989d8423f20abaa21de7c7c55f",
+    "url": "/static/media/VectorPhone.1d55ef98.svg"
   },
   {
     "revision": "d4c397c88bc25ffbcad89a5e525f8537",
     "url": "/static/media/icon1.d4c397c8.svg"
   },
   {
-    "revision": "b2bc9312d1e2f020e15d4a110a9c616b",
-    "url": "/static/media/icon4.b2bc9312.svg"
+    "revision": "e298e9b6bf62fd3a90dcdba8e5e78550",
+    "url": "/static/media/icon2.e298e9b6.svg"
   },
   {
     "revision": "8a7512832f86c41335edcf68c6741a3e",
@@ -134,6 +130,10 @@ self.__precacheManifest = [
   {
     "revision": "a27f3b614402c32ef17509aee908667f",
     "url": "/static/media/icon6.a27f3b61.svg"
+  },
+  {
+    "revision": "b2bc9312d1e2f020e15d4a110a9c616b",
+    "url": "/static/media/icon4.b2bc9312.svg"
   },
   {
     "revision": "ae6e311529f6f2a730f3439bc8ccf93a",
